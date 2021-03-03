@@ -1,4 +1,5 @@
 # Working with the IsisCB Tutorial
+![isis bibliography logo](https://github.com/IsisCB/IsisCB-Carpentry/blob/main/media/isisCBLogo.jpg)
 
 ### Covering the Citations Ingest Process and the Curation of Citation and Authority Records
 
