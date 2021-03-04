@@ -7,7 +7,7 @@
 ## Table of Contents
 
 * 1 [Ingesting Citations](#1-ingesting-citations)
-  * [The Zotero Accessions Interface](#the-zotero-accessions-interface)
+  * 1.1[The Zotero Accessions Interface](#11-the-zotero-accessions-interface)
     * [Searching for Ingests](#searching-for-ingests)
     * [The Three Accessions Functions](#the-three-accessions-functions)
   *  [Doing a New Ingest](#doing-a-new-ingest)
@@ -54,7 +54,7 @@
 ---
 
 ## 1 Ingesting Citations
-### The Zotero Accessions Interface
+### 1.1 The Zotero Accessions Interface
 ####  Searching for Ingests
 ####  The Three Accessions Functions
 ###  Doing a New Ingest
