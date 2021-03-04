@@ -7,94 +7,94 @@
 ## Table of Contents
 
 * 1 [Ingesting Citations](#1-ingesting-citations)
-  * 1.1[The Zotero Accessions Interface](#11-the-zotero-accessions-interface)
-    * [Searching for Ingests](#searching-for-ingests)
-    * [The Three Accessions Functions](#the-three-accessions-functions)
-  *  [Doing a New Ingest](#doing-a-new-ingest)
-    * [Uploading rdf Files](#uploading-rdf-files)
-    * [Linking Attached Authorities](#linking-attached-Authorities)
-      * [If the Authority Already Exists in Our Database](#if-the-authority-already-exists-in-our-database)
-      * [If You Need to Create a New Authority](#if-you-need-to-create-a-new-authority)
-* [Curating Citations](#curating-citations)
-  * [Different Citation Types](#different-citation-types)
-    * [Articles](#articles)
-    * [Books](#books)
-    * [Book Reviews](#book-reviews)
-    * [Essay Reviews](#essay-reviews)
-    * [Other Citation Types](#other-citation-types)
-  * [The Citation Curation Interface](#the-citation-curation-interface)
-    * [Citation Curation Interface Views](#citation-curation-interface-views)
-      * [Fields Tab](#fields-tab)
-      * [Attributes Tab](#attributes-tab)
-      * [Linked Data Tab](#linked-data-tab)
-      * [Related Citations Tab](#related-citations-tab)
-      * [Related Authorities Tab](#related-authorities-tab)
-      * [Tracking Tab](#tracking-tab)
-    * [Attaching Subjects and a Category](#attaching-subjects-and-a-category)
-      * [Attaching Existing Subjects](#attaching-existing-subjects)
-      * [Creating New Subjects](#creating-new-subjects)
-      * [Attaching Categories](#attaching-categories)
-* [The Datasets Management Interfaces](#the-datasets-management-interfaces)
-  * [The Citations Management Interface](#the-citations-management-interface)
-    * [Searching for Citations](#searching-for-citations)
-  * [The Authorities Management Interface](#the-authorities-management-interface)
-    * [Searching for Authorities](#searching-for-authorities)
-    * [Editing Authorities in the Authority Curation Interface](#editing-authorities-in-the-authority-curation-interface)
-  * [Creating New Authorities](#creating-new-authorities)
-    * [Creating a New Person](#creating-a-new-person)
-    * [Creating a New Institution](#creating-a-new-institution)
-    * [Creating a New Time Period](#creating-a-new-time-period)
-    * [Creating a New Geographic Term](#creating-a-new-geographic-term)
-    * [Creating a New Serial Publication](#creating-a-new-serial-publication)
-    * [Creating a New Classification Term](#creating-a-new-classification-term)
-    * [Creating a New Concept](#creating-a-new-concept)
-    * [Creating a New Creative Work](#creating-a-new-creative-work)
-    * [Creating a New Event](#creating-a-new-event)
-    * [Creating a New Cross Reference](#creating-a-new-cross-reference)
+  * 1.1 [The Zotero Accessions Interface](#11-the-zotero-accessions-interface)
+    * 1.1.1 [Searching for Ingests](#111-searching-for-ingests)
+    * 1.1.2 [The Three Accessions Functions](#112-the-three-accessions-functions)
+  *  1.2 [Doing a New Ingest](#12-doing-a-new-ingest)
+    * 1.2.1 [Uploading rdf Files](#121-uploading-rdf-files)
+    * 1.2.2 [Linking Attached Authorities](#122-linking-attached-Authorities)
+      * 1.2.2.1 [If the Authority Already Exists in Our Database](#1221-if-the-authority-already-exists-in-our-database)
+      * 1.2.2.2 [If You Need to Create a New Authority](#1222-if-you-need-to-create-a-new-authority)
+* 2 [Curating Citations](#2curating-citations)
+  * 2.1 [Different Citation Types](#21-different-citation-types)
+    * 2.1.1 [Articles](#211-articles)
+    * 2.1.2 [Books](#212-books)
+    * 2.1.3 [Book Reviews](#213-book-reviews)
+    * 2.1.4 [Essay Reviews](#214-essay-reviews)
+    * 2.1.5 [Other Citation Types](#215-other-citation-types)
+  * 2.2 [The Citation Curation Interface](#22-the-citation-curation-interface)
+    * 2.2.1 [Citation Curation Interface Views](#221-citation-curation-interface-views)
+      * 2.2.1.1 [Fields Tab](#2211-fields-tab)
+      * 2.2.1.2 [Attributes Tab](#2212-attributes-tab)
+      * 2.2.1.3 [Linked Data Tab](#2213-linked-data-tab)
+      * 2.2.1.4 [Related Citations Tab](#2214-related-citations-tab)
+      * 2.2.1.5 [Related Authorities Tab](#2215-related-authorities-tab)
+      * 2.2.1.6 [Tracking Tab](#2216-tracking-tab)
+    * 2.2.2 [Attaching Subjects and a Category](#222-attaching-subjects-and-a-category)
+      * 2.2.2.1 [Attaching Existing Subjects](#2221-attaching-existing-subjects)
+      * 2.2.2.2 [Creating New Subjects](#2222-creating-new-subjects)
+      * 2.2.2.3 [Attaching Categories](#2223-attaching-categories)
+* 3 [The Datasets Management Interfaces](#3-the-datasets-management-interfaces)
+  * 3.1 [The Citations Management Interface](#31-the-citations-management-interface)
+    * 3.1.1 [Searching for Citations](#311-searching-for-citations)
+  * 3.2 [The Authorities Management Interface](#32-the-authorities-management-interface)
+    * 3.2.1 [Searching for Authorities](#321-searching-for-authorities)
+    * 3.2.2 [Editing Authorities in the Authority Curation Interface](#322-editing-authorities-in-the-authority-curation-interface)
+  * 3.3 [Creating New Authorities](#33-creating-new-authorities)
+    * 3.3.1 [Creating a New Person](#331-creating-a-new-person)
+    * 3.3.2 [Creating a New Institution](#332-creating-a-new-institution)
+    * 3.3.3 [Creating a New Time Period](#333-creating-a-new-time-period)
+    * 3.3.4 [Creating a New Geographic Term](#334-creating-a-new-geographic-term)
+    * 3.3.5 [Creating a New Serial Publication](#335-creating-a-new-serial-publication)
+    * 3.3.6 [Creating a New Classification Term](#336-creating-a-new-classification-term)
+    * 3.3.7 [Creating a New Concept](#337-creating-a-new-concept)
+    * 3.3.8 [Creating a New Creative Work](#338-creating-a-new-creative-work)
+    * 3.3.9 [Creating a New Event](#339-creating-a-new-event)
+    * 3.3.10 [Creating a New Cross Reference](#3310-creating-a-new-cross-reference)
 ---
 
 ## 1 Ingesting Citations
 ### 1.1 The Zotero Accessions Interface
-####  Searching for Ingests
-####  The Three Accessions Functions
-###  Doing a New Ingest
-####  Uploading rdf Files
-####  Linking Attached Authorities
-#####  If the Authority Already Exists in Our Database
-#####  If You Need to Create a New Authority
-##  Curating Citations
-###  Different Citation Types
-####  Articles
-####  Books
-####  Book Reviews
-####  Essay Reviews
-####  Other Citation Types
-###  The Citation Curation Interface
-####  Citation Curation Interface Views
-#####  Fields Tab
-#####  Attributes Tab
-#####  Linked Data Tab
-#####  Related Citations Tab
-#####  Related Authorities Tab
-#####  Tracking Tab
-####  Attaching Subjects and a Category
-#####  Attaching Existing Subjects
-#####  Creating New Subjects
-#####  Attaching Categories
-## The Datasets Management Interfaces
-###  The Citations Management Interface
-####  Searching for Citations
-###  The Authorities Management Interface
-####  Searching for Authorities
-####  Editing Authorities in the Authority Curation Interface
-####  Creating New Authorities
-#####  Creating a New Person
-#####  Creating a New Institution
-#####  Creating a New Time Period
-#####  Creating a New Geographic Term
-#####  Creating a New Serial Publication
-#####  Creating a New Classification Term
-#####  Creating a New Concept
-#####  Creating a New Creative Work
-#####  Creating a New Event
-#####  Creating a New Cross Reference
+####  1.1.1 Searching for Ingests
+####  1.1.2 The Three Accessions Functions
+### 1.2 Doing a New Ingest
+####  1.2.1 Uploading rdf Files
+####  1.2.2 Linking Attached Authorities
+#####  1.2.2.1 If the Authority Already Exists in Our Database
+#####  1.2.2.2 If You Need to Create a New Authority
+##  2 Curating Citations
+###  2.1 Different Citation Types
+####  2.1.1 Articles
+####  2.1.2 Books
+####  2.1.3 Book Reviews
+####  2.1.4 Essay Reviews
+####  2.1.5 Other Citation Types
+###  2.2 The Citation Curation Interface
+####  2.2.1 Citation Curation Interface Views
+#####  2.2.1.1 Fields Tab
+#####  2.2.1.2 Attributes Tab
+#####  2.2.1.3 Linked Data Tab
+#####  2.2.1.4 Related Citations Tab
+#####  2.2.1.5 Related Authorities Tab
+#####  2.2.1.6 Tracking Tab
+####  2.2.2 Attaching Subjects and a Category
+#####  2.2.2.1 Attaching Existing Subjects
+#####  2.2.2.2 Creating New Subjects
+#####  2.2.2.3 Attaching Categories
+## 3 The Datasets Management Interfaces
+###  3.1 The Citations Management Interface
+####  3.1.1 Searching for Citations
+###  3.2 The Authorities Management Interface
+####  3.2.1 Searching for Authorities
+####  3.2.2 Editing Authorities in the Authority Curation Interface
+####  3.3 Creating New Authorities
+#####  3.1.1 Creating a New Person
+#####  3.1.2 Creating a New Institution
+#####  3.1.3 Creating a New Time Period
+#####  3.1.4 Creating a New Geographic Term
+#####  3.1.5 Creating a New Serial Publication
+#####  3.1.6 Creating a New Classification Term
+#####  3.1.7 Creating a New Concept
+#####  3.1.8 Creating a New Creative Work
+#####  3.1.9 Creating a New Event
+#####  3.1.10 Creating a New Cross Reference
