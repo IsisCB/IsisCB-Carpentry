@@ -2,7 +2,7 @@
 # Tutorial: Working with the IsisCB
 ### Covering the Citations Ingest Process and the Curation of Citation and Authority Records
 
-> Author: Paul Kelley Vieth (pvieth@ou.edu)
+> Tutorial Author: Paul Kelley Vieth (pvieth@ou.edu)
 >
 >IsisCB Editor: Stephen Weldon
 >
@@ -46,13 +46,18 @@
   * 3.1 [The Citations Management Interface](#31-the-citations-management-interface)
     * 3.1.1 [Searching for Citations](#311-searching-for-citations)
     * 3.1.2 [Create a New Citation Record](#312-create-a-new-citation-record)
-    * 3.1.3 [Bulk Change](#313-bulk-change)
-    * 3.1.4 [Bulk Select](#314-bulk-select)
-    * 3.1.5 [Export](#315-export)
-    * 3.1.6 [Collections](#316-collections)
+    * 3.1.3 [Bulk Change Citations](#313-bulk-change-citations)
+    * 3.1.4 [Bulk Select Citations](#314-bulk-select-citations)
+    * 3.1.5 [Export Citations](#315-export-citations)
+    * 3.1.6 [Citations Collections](#316-citations-collections)
   * 3.2 [The Authorities Management Interface](#32-the-authorities-management-interface)
     * 3.2.1 [Searching for Authorities](#321-searching-for-authorities)
-    * 3.2.2 [Editing Authorities in the Authority Curation Interface](#322-editing-authorities-in-the-authority-curation-interface)
+    * 3.2.2 [Create a New Authority Record](#322-create-a-new-authority-record)
+    * 3.2.3 [Bulk Change Authorities](#323-bulk-change-authorities)
+    * 3.2.4 [Bulk Select Authorities](#324-bulk-select-authorities)
+    * 3.2.5 [Bulk Select (CSV) Authorities](#325-bulk-select-csv-authorities)
+    * 3.2.6 [Export Authorities](#326-export-authorities)
+    * 3.2.7 [Authorities Collections](#327-authorities-collections)
   * 3.3 [Creating New Authorities](#33-creating-new-authorities)
     * 3.3.1 [Creating a New Person](#331-creating-a-new-person)
     * 3.3.2 [Creating a New Institution](#332-creating-a-new-institution)
@@ -60,6 +65,7 @@
     * 3.3.4 [Creating a New Geographic Term](#334-creating-a-new-geographic-term)
     * 3.3.5 [Creating a New Serial Publication](#335-creating-a-new-serial-publication)
     * 3.3.7 [Creating a New Concept](#337-creating-a-new-concept)
+  * 3.4 [Editing Authorities in the Authority Curation Interface](#322-editing-authorities-in-the-authority-curation-interface)
 ---
 
 # 1 Ingesting Citations
@@ -293,19 +299,28 @@ If for any reason you need to skip one of the authorities imported with the cita
 
 ---
 # 3 The Datasets Management Interfaces
+
+The Datasets Management interfaces can be accessed through the **Datasets** dropdown in the main menu at the top of the IsisCB backend
+
+There are two Datasets Management interfaces
+* [The Citatations Management interface](#31-the-citations-management-interface)
+* [The Authorities Management interface](#32-the-authorities-management-interface)
+
+These management interfaces are explained in detail below
+
 ##  3.1 The Citations Management Interface
 
 ![image of isis cb citations management interface](/media/citationsManagementInterface.png)
 
-There are six things you can do from the Citations Management Interface
+There are 6 things you can do from the Citations Management Interface
 * [**search** for and filter citations](#311-searching-for-citations)
 * [**create a new citation record**](#312-create-a-new-citation-record)
-* [**bulk change** any set of citations](#313-bulk-change)
-* [**bulk select** citations](#314-bulk-select)
-* [**export** any set of citations](#315-export)
-* [group sets of citations into **collections**](#316-collections)
+* [**bulk change** any set of citations](#313-bulk-change-citations)
+* [**bulk select** citations](#314-bulk-select-citations)
+* [**export** any set of citations](#315-export-citations)
+* [group sets of citations into **collections**](#316-citations-collections)
 
-These six functions are covered in detail below
+These 6 functions are covered in detail below
 
 [^ Up to Table of Contents](#table-of-contents)
 
@@ -331,9 +346,9 @@ The search interface will expand revealing several search filter fields:
   * for filtering by the date a citation was published, modified, or created
   * dates may be typed using the format `yyyy-mm-dd` or selected from the calendar dropdown
 * `Id`
-  * each citation is assigned a unique ID at ingest
+  * each citation is assigned a unique ID on creation
   * use this field to search for individual citations by ID, or
-  * use this field to search for any set of IDs with a comma-separated list of IDs
+  * use this field to search for any set of citations with a comma-separated list of IDs
 * `Abstract`
   * for keyword searching the text of a citation's abstract
 * `Descript`
@@ -351,9 +366,9 @@ The search interface will expand revealing several search filter fields:
   * the Isis CB user who last made an edit to the citation
 * `Database`
 * `Collection`
-  * an set of records can be [assigned to collections](#316-collections). You can search for those collections here
+  * a set of records can be [assigned to a collection](#316-citations-collections). You can search for those collections here
 * `Zotero`
-  * this filter is used to search for sets of citations that were uploaded an ingested together. This is equivalent to [searching for ingests and uploads in the Zotero Accessions Interface](#111-searching-for-ingests) and clicking the **view** button there
+  * this filter is used to search for sets of citations that were uploaded and ingested together. This is equivalent to [searching for ingests and uploads in the Zotero Accessions Interface](#111-searching-for-ingests) and clicking the **view** button there
 * `Creator`
   * the Isis CB user who originally created the citation, either through the [ingest process](#12-doing-a-new-ingest) or using the [Create a New Citation Record](#312-create-a-new-citation-record) function in the Citations Management Interface
 * `Print`
@@ -380,7 +395,7 @@ Once you've filled out the necessary metadata of the citation, **click** the gre
 
 ---
 
-###  3.1.3 Bulk Change
+###  3.1.3 Bulk Change Citations
 
 ![image for Isis CB bulk change interface](/media/bulkChangeInterface.png)
 
@@ -410,7 +425,7 @@ When the progress bar fills blue and reads **Done!**, **click** the green **Retu
 
 ---
 
-###  3.1.4 Bulk Select
+###  3.1.4 Bulk Select Citations
 
 ![image of the isis cb bulk select interface](/media/bulkSelectInterface.png)
 
@@ -424,7 +439,7 @@ Simply enter a comma-separated list of citation IDs and **click** the green **Se
 
 ---
 
-###  3.1.5 Export
+###  3.1.5 Export Citations
 
 ![image of isis cb export citations interface](/media/exportInterface.png)
 
@@ -447,7 +462,7 @@ To export a set of citations:
 
 ---
 
-###  3.1.6 Collections
+###  3.1.6 Citations Collections
 
 From the **Collections** dropdown menu (between the **Export** and **Link Records** buttons in  the Citations Management interface) you can
 * **Create a new collection** from the set of citations currently filtered in the view
@@ -465,21 +480,95 @@ To **Create a new collection**
 ---
 ##  3.2 The Authorities Management Interface
 
+![image of isis cb authorities management interface](/media/authoritiesManagementInterface.png)
 
+There are 7 things you can do from the Authorities Management Interface
+* [**search** for and filter authorities](#321-searching-for-authorities)
+* [**create a new authority record**](#322-create-a-new-authority-record)
+* [**bulk change** any set of authorities](#323-bulk-change-authorities)
+* [**bulk change (CSV)** any set of authorities](#324-bulk-change-csv-authorities)
+* [**bulk select** authorities](#325-bulk-select-authorities)
+* [**export** any set of authorities](#326-export-authorities)
+* [group sets of authorities into **collections**](#327-authorities-collections)
+
+These 7 functions are covered in detail below
 
 [^ Up to Table of Contents](#table-of-contents)
 
 ---
 ###  3.2.1 Searching for Authorities
 
+![image of isis cb authorities management search](/media/authoritiesManagementSearch.png)
 
+To access the Citations Search Interface, **click** the blue **Show/hide filters** bar in the Authorities Management Interfaces
+
+The search interface will expand revealing several search filter fields:
+* `Name`
+* `Class.Syst.`
+  * authorities are assigned to different classification systems when created. Use this field to filter authorities by classification system
+* `Clas.Code`
+  * each category and category sub-component in the IsisCB classification system has a unique numerical code. Use this field to filter category authorities according to this code
+* `Clas.Hier.`
+  * use this field to filter authorities according to where the fall in the IsisCB classification system hierarchy
+* `Id`
+  * each authority is assigned a unique ID on creation
+  * use this field to search for individual authorities by ID, or
+  * use this field to search for any set of authorities with a comma-separated list of IDs
+* `Descrip.`
+  * for keyword searching the text of an authority's description
+* `LD Type`
+  * use this field to filter authorities by the types of **Linked Data** (e.g., URLs or ISSNs) attached to them
+* `Att Typ.`
+  * use this field to filter authorities by different **Attribute Types** attached to them
+* `Type`
+  * filter by authority type
+* `Status`
+* `Tracking`
+* `Modifier`
+  * the Isis CB user who last made an edit to the authority
+* `Database`
+* `Collection`
+  * a set of authorities can be [assigned to a collection](#327-authorities-collections). You can search for those collections here
+* `Zotero`
+  * this filter is used to search for sets of authorities that were uploaded and ingested together through the [Zotero Accessions interface](#11-the-zotero-accessions-interface)
+* `Creator`
+  * the Isis CB user who originally created the citation, either through the [ingest process](#12-doing-a-new-ingest) or using the [Create a New Citation Record](#312-create-a-new-citation-record) function in the Citations Management Interface
+* `Modified/Created after/before`
+  * for filtering by the date an authority was modified, or created
+  * dates may be typed using the format `yyyy-mm-dd` or selected from the calendar dropdown
 
 [^ Up to Table of Contents](#table-of-contents)
 
 ---
-###  3.2.2 Editing Authorities in the Authority Curation Interface
+###  3.2.2 Create a New Authority Record
 
+See the [Creating New Authorities](#33-creating-new-authorities) section for help with creating authorities
 
+[^ Up to Table of Contents](#table-of-contents)
+
+---
+
+###  3.2.3 Bulk Change Authorities
+
+[^ Up to Table of Contents](#table-of-contents)
+
+---
+###  3.2.4 Bulk Change CSV Authorities
+
+[^ Up to Table of Contents](#table-of-contents)
+
+---
+###  3.2.5 Bulk Select Authorities
+
+[^ Up to Table of Contents](#table-of-contents)
+
+---
+###  3.2.6 Export Authorities
+
+[^ Up to Table of Contents](#table-of-contents)
+
+---
+###  3.2.7 Authorities Collections
 
 [^ Up to Table of Contents](#table-of-contents)
 
@@ -489,6 +578,7 @@ To **Create a new collection**
 Through
 * the [authority resolution process](#122-resolving-attached-Authorities)
 * the [citation curation interface](#22-the-citation-curation-interface)
+* the [create new authority record]() function of the [Authorities Management interface](#32-the-authorities-management-interface)
 * or, the [subjects and categories interface](#222-attaching-subjects-and-a-category)
 
 . . . you may need to create a new authority. The following sections walk you through the specifics of creating each type of authority
@@ -606,3 +696,9 @@ If you feel a new time period authority needs to be created, contact an IsisCB a
 [^ Up to Table of Contents](#table-of-contents)
 
 ---
+
+###  3.4 Editing Authorities
+
+
+
+[^ Up to Table of Contents](#table-of-contents)
