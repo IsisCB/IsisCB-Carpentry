@@ -8,7 +8,7 @@
 
 ## Table of Contents
 
-* #### [1 - Ingesting Citations](#1-ingesting-citatations)
+* #### 1 [Ingesting Citations](#1-ingesting-citatations)
   * ##### 1.1 [The Zotero Accessions Interface](#the-zotero-accessions-interface)
     * 1.1.1 [Searching for Ingests](#searching-for-ingests)
     * 1.1.2 [The Three Accessions Functions](#the-three-accessions-functions)
@@ -55,7 +55,7 @@
     * 3.2.3.10 [Creating a New Cross Reference](#creating-a-new-cross-reference)
 ---
 
-## 1 - Ingesting Citations
+## 1 Ingesting Citations
 ### 1.1 The Zotero Accessions Interface
 #### 1.1.1 Searching for Ingests
 #### 1.1.2 The Three Accessions Functions
