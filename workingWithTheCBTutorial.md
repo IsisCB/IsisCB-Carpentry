@@ -1,4 +1,4 @@
-![isis bibliography logo](https://github.com/IsisCB/IsisCB-Carpentry/blob/main/media/isisCBLogoThumbnail.jpg)
+[![isis bibliography logo](https://github.com/IsisCB/IsisCB-Carpentry/blob/main/media/isisCBLogoThumbnail.jpg)](https://data.isiscb.org/)
 # Tutorial: Working with the IsisCB
 ### Covering the Citations Ingest Process and the Curation of Citation and Authority Records
 
@@ -59,15 +59,15 @@
 
 ![Image of Isis CB Zotero Accessions Interface](/media/zoteroAccessions.png)
 
-The Zotero Accessions interface can be accessed the "Zotero" dropdown menu in the upper righthand corner of the backend.
+The Zotero Accessions interface can be accessed through the "Zotero" dropdown menu in the upper righthand corner of the backend.
 
 The Zotero Accessions interface allows you to:
 
   * [upload new .rdf files (containing citations from zotero)](#121-uploading-rdf-files)
   * [search for past uploads or ingests](#111-searching-for-ingests) to access the 3 accessions functions:
-    * [resolve their attached authorities](#122-resolving-attached-authorities) (blue button seen above)
-    * ingest the upload once resolved (green button above)
-    * view a list of citations from that upload that have been resolved and ingested (yellow button above).
+    * [**resolve** their attached authorities](#122-resolving-attached-authorities) (blue button seen above)
+    * **ingest** the upload once resolved (green button above)
+    * **view** a list of citations from that upload that have been resolved and ingested (yellow button above).
 
 [^ Up to Table of Contents](#table-of-contents)
 
@@ -110,13 +110,15 @@ This opens to Upload dialog
 
 ![image of Isis CB upload page](/media/uploadPage.png)
 
-From here simply upload an .rdf file using the **Choose File** button seen above
+From here  select an .rdf file from your local machine using the **Choose File** button seen above
 
 Do not change the assigned dataset in the **Ingest to** section of the upload process unless you are sure that you need to
 
 The **Name** field of the upload process will autofill using the name of the file you uploaded but can be changed if desired
 
-> For help preparing .rdf files for this upload process, see our tutorial on [Zotero Training](/placeholder-link1.md)
+**Then, click the green Upload button**
+
+> Note: For help preparing .rdf files for this upload process, see our tutorial on [Data Prep with Zotero](/placeholder-link1.md)
 
 [^ Up to Table of Contents](#table-of-contents)
 
@@ -129,7 +131,7 @@ Once your upload is complete you will automatically be redirected to the authori
 
 ![image of Isis CB authority resolution page](/media/resolutionPage.png)
 
-> note: if the first authority to be resolved isn't highlighted in orange already (as seen above), click on that authority to do so
+> Note: if the first authority to be resolved isn't highlighted in orange already (as seen above), click on that authority to do so
 
 [^ Up to Table of Contents](#table-of-contents)
 
@@ -147,7 +149,7 @@ In this panel you can search for
 * **People** to link to authors, editors, translators, advisors (for theses), and contributors
 * **Concepts**, **Time Periods**, **Geographic Terms**, **People**, or any other authority type to link to a citation's subject terms (if you assigned them as tags in zotero during data prep)
 
-> If you're not sure if an authority in the search results is the one you're looking for (especially when searching for people) simply hover over the authority name and a list of related citations will pop up to guide your decision ![image of Isis CB resolution page authority related citations](#/media/resolutionPageRelatedPopup.png)
+> If you're not sure if an authority in the search results is the one you're looking for (especially when searching for people) simply hover over the authority name and a list of related citations will pop up to guide your decision ![image of Isis CB resolution page authority related citations](/media/resolutionPageRelatedPopup.png)
 
 **Then, Simply click the checkmark next to the search result to link it to the highlighted data item**
 
@@ -182,7 +184,7 @@ After you create a new authority from within the resolution process, the system 
 #####  1.2.2.3 If You Need to Skip an Authority
 
 If for any reason you need to skip one of the authorities imported with the citation in the upload process, simply click the **Skip** button (to the right of the **Create** button).
-> Note: If you skip too many items in quick succession, the system may become confused about the authority resolution order and begin to rapidly refresh the search results. If this happens, simply refresh the page. 
+> Note: If you skip too many items in quick succession, the system may become confused about the authority resolution order and begin to rapidly refresh the search results. If this happens, simply refresh the page.
 
 [^ Up to Table of Contents](#table-of-contents)
 
