@@ -55,6 +55,7 @@
 
 ## 1 Ingesting Citations
 ### 1.1 The Zotero Accessions Interface
+[^ Up to Table of Contents](#table-of-contents)
 ####  1.1.1 Searching for Ingests
 ####  1.1.2 The Three Accessions Functions
 ### 1.2 Doing a New Ingest
