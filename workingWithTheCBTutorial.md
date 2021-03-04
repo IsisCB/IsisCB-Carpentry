@@ -2,6 +2,14 @@
 # Tutorial: Working with the IsisCB
 ### Covering the Citations Ingest Process and the Curation of Citation and Authority Records
 
+> Author: Paul Kelley Vieth (pvieth@ou.edu)
+>
+>IsisCB Editor: Stephen Weldon
+>
+>Explore the IsisCB: [data.isiscb.org ](data.isiscb.org)
+>
+>Contact the IsisCB: isisbibliography@gmail.com
+
 ---
 
 ## Table of Contents
@@ -9,7 +17,7 @@
 * 1 [Ingesting Citations](#1-ingesting-citations)
   * 1.1 [The Zotero Accessions Interface](#11-the-zotero-accessions-interface)
     * 1.1.1 [Searching for Ingests](#111-searching-for-ingests)
-  *  1.2 [Doing a New Ingest](#12-doing-a-new-ingest)
+  * 1.2 [Doing a New Ingest](#12-doing-a-new-ingest)
     * 1.2.1 [Uploading .rdf Files](#121-uploading-rdf-files)
     * 1.2.2 [Resolving Attached Authorities](#122-resolving-attached-Authorities)
       * 1.2.2.1 [If the Authority Already Exists in Our Database](#1221-if-the-authority-already-exists-in-our-database)
@@ -306,13 +314,67 @@ These six functions are covered in detail below
 
 ![image of isis cb citations management search](/media/citationsManagementSearch.png)
 
+To access the Citations Search Interface, **click** the blue **Show/hide filters** bar in the Citatations Management Interfaces
+
+The search interface will expand revealing several search filter fields:
+* `Combined`
+  * for a compound search cross-referencing multiple filters separated by commas
+  * using the format `Title, Author, Description, Abstract, Subject, Category`
+* `Title`
+* `Au./Ed.`
+  * for filtering by citation author or editor
+* `Periodical`
+  * for filtering by **Serial Publication** for journal articles
+* `Publisher`
+  * for books
+* `Pub date/Modified/Created after/before`
+  * for filtering by the date a citation was published, modified, or created
+  * dates may be typed using the format `yyyy-mm-dd` or selected from the calendar dropdown
+* `Id`
+  * each citation is assigned a unique ID at ingest
+  * use this field to search for individual citations by ID, or
+  * use this field to search for any set of IDs with a comma-separated list of IDs
+* `Abstract`
+  * for keyword searching the text of a citation's abstract
+* `Descript`
+  * for keyword searching the text of a citation's description
+* `Subject`
+  * for filtering by the authorities linked to a citation as subjects
+* `Pub. date free`
+  * a freehand textbox for filtering by date
+  * enter `null` here to search for citations with empty date fields
+* `Type`
+  * filter by citation medium type
+* `Status`
+* `Tracking`
+* `Modifier`
+  * the Isis CB user who last made an edit to the citation
+* `Database`
+* `Collection`
+  * an set of records can be [assigned to collections](#316-collections). You can search for those collections here
+* `Zotero`
+  * this filter is used to search for sets of citations that were uploaded an ingested together. This is equivalent to [searching for ingests and uploads in the Zotero Accessions Interface](#111-searching-for-ingests) and clicking the **view** button there
+* `Creator`
+  * the Isis CB user who originally created the citation, either through the [ingest process](#12-doing-a-new-ingest) or using the [Create a New Citation Record](#312-create-a-new-citation-record) function in the Citations Management Interface
+* `Print`
+  * filter by the print status of citations
+
+
 [^ Up to Table of Contents](#table-of-contents)
 
 ---
 
 ###  3.1.2 Create a New Citation Record
 
+![image of isis cb create new citation record interface](/media/createNewCitationRecord.png)
 
+The **Create a New Citation Record** interface can be accessed by clicking the blue **Create New Citation Record** button on the left side of the Citations Management Interface (below the Search/Filter Interface section of the page)
+
+This is an alternative to [creating citations through the .rdf file ingest process](#12-doing-a-new-ingest). This function allows you to create only one citation at a time.
+
+> When creating citations using this function, **Follow the [guidelines for creating the different citation types](#21-different-citation-types)**
+
+Once you've filled out the necessary metadata of the citation, **click** the green **Creat & Continue** button
 
 [^ Up to Table of Contents](#table-of-contents)
 
@@ -320,7 +382,29 @@ These six functions are covered in detail below
 
 ###  3.1.3 Bulk Change
 
+![image for Isis CB bulk change interface](/media/bulkChangeInterface.png)
 
+There are several changes you can make to citations in bulk as seen in the `Action` selection box of the Bulk Change Interface. Most of these types of changes are advanced functionality for database administrators that you can ignore. The two that you will need to use regularly are
+* `Set Record Status`
+* `Set Record Tracking Status`
+
+> Note: you can select multiple bulk change functions to perform simultaneously by holding down `ctrl/cmd` (windows/mac) when selecting functions from the `Action` menu
+
+Once you've selected the functions you want to run, the function options will appear in the right-hand column of the Bulk Change interface
+
+**Click** the blue **Apply** button
+
+You'll be taken to the Bulk Change Progress page
+
+When the progress bar fills blue and reads **Done!**, **click** the green **Return to Search Interface** button at the bottom of the page to be redirected to the Citations Management Interface  
+
+> Note: When you're redirected to the Citations Management Interface, you will be inside a search containing the same citations you've just made a bulk change to. This way you can make further changes to this set of citations as necessary
+
+**Using the Bulk Change interface to finish curating citations:**
+* set `Set Record Status` to **active**
+* set `Set Record Tracking Status` to **Fully Entered**
+* once the Bulk Change interface redirects you to the Citations Management interface after it finishes implementing the above changes, return to the Bulk Change interface
+* set `Set Record Tracking Status` to **Proofed** and follow the steps to complete these changes. The records you've just curated are now publicly visible on the Isis Bibliography online and ready to be collated into next year's print version of the *Isis Current Bibliography*
 
 [^ Up to Table of Contents](#table-of-contents)
 
@@ -328,7 +412,13 @@ These six functions are covered in detail below
 
 ###  3.1.4 Bulk Select
 
+![image of the isis cb bulk select interface](/media/bulkSelectInterface.png)
 
+You can access the Bulk Select interface by clicking the blue **Bulk Select** button between the **Bulk Change** and **Export** buttons in the Citations Management interface (underneath the Search/Filter section of the page)
+
+The Bulk Select interface performs the same function as the `ID` field of the [Citations Management Search interface](#311-searching-for-citations), but if you need to grab a large number of citations by ID, then this interface is useful
+
+Simply enter a comma-separated list of citation IDs and **click** the green **Select** button. You will be redirected to the Citations Management interface with your search results
 
 [^ Up to Table of Contents](#table-of-contents)
 
@@ -336,7 +426,22 @@ These six functions are covered in detail below
 
 ###  3.1.5 Export
 
+![image of isis cb export citations interface](/media/exportInterface.png)
 
+To access the Export Citations interace, **click** the blue **Export** button between the **Bulk Select** and **Collections** buttons in the Citations Management interface (underneath the Search/Filter section of the page)
+
+To export a set of citations:
+* enter an `Export Name`
+* select the `Export Format`
+  * .csv by default
+* check whether you want to
+  * `Export linked records`
+    * e.g., reviews linked to books
+  * `Export metadata`
+  * `Use "||" to separate related authority and citation fields`
+* select which citation fields you'd like to include in the export from the `Fields` multiselection box
+  * hold `ctrl/cmd` (window/mac) to select multiple fields
+* **click** the green **Create** button to begin the download
 
 [^ Up to Table of Contents](#table-of-contents)
 
@@ -344,7 +449,16 @@ These six functions are covered in detail below
 
 ###  3.1.6 Collections
 
+From the **Collections** dropdown menu (between the **Export** and **Link Records** buttons in  the Citations Management interface) you can
+* **Create a new collection** from the set of citations currently filtered in the view
+* **Add to an existing collection** the set of citations currently filtered in the view
+* or **view collections** you've made in the past
 
+To **Create a new collection**
+* select the first option from the **Collections** dropdown menu
+* give the new collection a `Name`
+* *(optional)* give the new collection a `Description`
+* **click** the green **Create** button
 
 [^ Up to Table of Contents](#table-of-contents)
 
@@ -464,7 +578,9 @@ Once you have a VIAF permalink or another URL for the Institution, **Click** the
 ---
 ####  3.3.3 Creating a New Time Period
 
-![image of Isis CB time period authority creation interface](/media/createTimePeriodAuthority.png)
+Do not create new time periods.
+
+If you feel a new time period authority needs to be created, contact an IsisCB administrator with your recommendation
 
 [^ Up to Table of Contents](#table-of-contents)
 
