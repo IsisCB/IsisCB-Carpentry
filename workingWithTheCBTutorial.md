@@ -4,6 +4,8 @@
 
 > Tutorial Author: Paul Kelley Vieth (pvieth@ou.edu)
 >
+> Tutorial Contributors: Kraig Bartel and Francesco Luzzini
+>
 >IsisCB Editor: Stephen Weldon
 >
 >Explore the IsisCB: [data.isiscb.org ](data.isiscb.org)
