@@ -25,13 +25,8 @@
       * 1.2.2.1 [If the Authority Already Exists in Our Database](#1221-if-the-authority-already-exists-in-our-database)
       * 1.2.2.2 [If You Need to Create a New Authority](#1222-if-you-need-to-create-a-new-authority)
       * 1.2.2.3 [If You Need to Skip an Authority](#1223-if-you-need-to-skip-an-authority)
-* 2 [Curating Citations](#2curating-citations)
+* 2 [Curating Citations](#2-curating-citations)
   * 2.1 [Different Citation Types](#21-different-citation-types)
-    * 2.1.1 [Articles](#211-articles)
-    * 2.1.2 [Books](#212-books)
-    * 2.1.3 [Book Reviews](#213-book-reviews)
-    * 2.1.4 [Essay Reviews](#214-essay-reviews)
-    * 2.1.5 [Other Citation Types](#215-other-citation-types)
   * 2.2 [The Citation Curation Interface](#22-the-citation-curation-interface)
     * 2.2.1 [Citation Curation Interface Views](#221-citation-curation-interface-views)
       * 2.2.1.1 [Fields Tab](#2211-fields-tab)
@@ -58,8 +53,8 @@
     * 3.2.1 [Searching for Authorities](#321-searching-for-authorities)
     * 3.2.2 [Create a New Authority Record](#322-create-a-new-authority-record)
     * 3.2.3 [Bulk Change Authorities](#323-bulk-change-authorities)
-    * 3.2.4 [Bulk Select Authorities](#324-bulk-select-authorities)
-    * 3.2.5 [Bulk Select (CSV) Authorities](#325-bulk-select-csv-authorities)
+    * 3.2.4 [Bulk Change (CSV) Authorities](#324-bulk-change-csv-authorities)
+    * 3.2.5 [Bulk Select Authorities](#325-bulk-select-authorities)
     * 3.2.6 [Export Authorities](#326-export-authorities)
     * 3.2.7 [Authorities Collections](#327-authorities-collections)
   * 3.3 [Creating New Authorities](#33-creating-new-authorities)
@@ -68,8 +63,8 @@
     * 3.3.3 [Creating a New Time Period](#333-creating-a-new-time-period)
     * 3.3.4 [Creating a New Geographic Term](#334-creating-a-new-geographic-term)
     * 3.3.5 [Creating a New Serial Publication](#335-creating-a-new-serial-publication)
-    * 3.3.7 [Creating a New Concept](#337-creating-a-new-concept)
-  * 3.4 [Editing Authorities in the Authority Curation Interface](#322-editing-authorities-in-the-authority-curation-interface)
+    * 3.3.6 [Creating a New Concept](#336-creating-a-new-concept)
+  * 3.4 [Editing Authorities in the Authority Curation Interface](#34-editing-authorities)
 ---
 
 # 1 Ingesting Citations
@@ -299,8 +294,6 @@ If you make any changes to the textbox fields of the Citation Curation interface
 ---
 ###  2.2.1 Citation Curation Interface Views
 
-[^ Up to Table of Contents](#table-of-contents)
-
 ---
 ####  2.2.1.1 Fields Tab
 
@@ -357,9 +350,9 @@ The **Related Citations** tab displays in [CCR relations](#224-ccr-relations) in
 ![image of isis cb citation curation interface related authorities tab](/media/relatedAuthoritiesTab.png)
 
 The **Related Authorities** tab displays in [ACR relations](#223-acr-relations) involving the citation, e.g.,
-* authors, editors, contributors, etc.
+* authors, editors, contributors, etc. responsible for it
 * publishers, or journals hosting it
-* subjects and categories
+* subjects and categories tagged to it
 
 [^ Up to Table of Contents](#table-of-contents)
 
@@ -491,7 +484,7 @@ The **ACR records** attached to any **authority** can be found in the **Related 
 
 **ACR record** pages look like this:
 
-![image of isis cb acr record interface]('/media/acrRecordInterface.png')
+![image of isis cb acr record interface](/media/acrRecordInterface.png)
 
 The `Type controlled` field in the left-hand column of the ACR record interface establishes the kind of relation between the **citation** (top of the right-hand column) and the **authority** (bottom of the right-hand column), so you can read the above record as: "the **person** named `Marian Lydia Shorey` is a **subject** of the **article** titled `A New Season for Experimental Neuroembryology`"
 
@@ -509,7 +502,7 @@ The CCR records attached to any **citation** can be found in the [**Related Cita
 
 **CCR record** pages look like this:
 
-![image of isis cb ccr record interface]('/media/ccrRecordInterface.png')
+![image of isis cb ccr record interface](/media/ccrRecordInterface.png)
 
 The `Type controlled` field in the left-hand column of the CCR record interface establishes the kind of relation between the two citations. The `type`s of relationships specified in the `Type controlled` field of CCR records are all directional relationships, so you can read the above record as: "the **book** titled `Ether and Modernity: The Recalcitrance of an Epistemic Object in the Early Twentieth Century` **Is Reviewed By** the **review** titled `"The Ether Drag Show"`"
 
@@ -982,7 +975,7 @@ To create a new Geographic Term authority:
 * **return** to the Authority Creation interface and **enter** that country code in the **CountryCode** attribute `Value` field
 * **click** the green **Create & Continue** button in the upper-right corner to finalize the creation of the new Geographic Term authority
 
-![image of geonames search interface](geonamesSearchInterface.png)
+![image of geonames search interface](/media/geonamesSearchInterface.png)
 
 [^ Up to Table of Contents](#table-of-contents)
 
@@ -1004,7 +997,7 @@ To create a new Serial Publication authority:
 [^ Up to Table of Contents](#table-of-contents)
 
 ---
-####  3.3.7 Creating a New Concept
+####  3.3.6 Creating a New Concept
 
 ![image of Isis CB concept authority creation interface](/media/createConceptAuthority.png)
 
