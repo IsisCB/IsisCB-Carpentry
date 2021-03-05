@@ -42,6 +42,8 @@
       * 2.2.2.1 [Attaching Existing Subjects](#2221-attaching-existing-subjects)
       * 2.2.2.2 [Creating New Subjects](#2222-creating-new-subjects)
       * 2.2.2.3 [Attaching Categories](#2223-attaching-categories)
+    * 2.2.3 [ACR Relations](#223-acr-relations)
+    * 2.2.4 [CCR Relations](#224-ccr-relations)
 * 3 [The Datasets Management Interfaces](#3-the-datasets-management-interfaces)
   * 3.1 [The Citations Management Interface](#31-the-citations-management-interface)
     * 3.1.1 [Searching for Citations](#311-searching-for-citations)
@@ -298,6 +300,20 @@ If for any reason you need to skip one of the authorities imported with the cita
 [^ Up to Table of Contents](#table-of-contents)
 
 ---
+####  2.2.3 ACR Relations
+
+
+
+[^ Up to Table of Contents](#table-of-contents)
+
+---
+####  2.2.4 CCR Relations
+
+
+
+[^ Up to Table of Contents](#table-of-contents)
+
+---
 # 3 The Datasets Management Interfaces
 
 The Datasets Management interfaces can be accessed through the **Datasets** dropdown in the main menu at the top of the IsisCB backend
@@ -443,7 +459,7 @@ Simply enter a comma-separated list of citation IDs and **click** the green **Se
 
 ![image of isis cb export citations interface](/media/exportInterface.png)
 
-To access the Export Citations interace, **click** the blue **Export** button between the **Bulk Select** and **Collections** buttons in the Citations Management interface (underneath the Search/Filter section of the page)
+To access the Export Citations interface, **click** the blue **Export** button between the **Bulk Select** and **Collections** buttons in the Citations Management interface (underneath the Search/Filter section of the page)
 
 To export a set of citations:
 * enter an `Export Name`
@@ -465,8 +481,8 @@ To export a set of citations:
 ###  3.1.6 Citations Collections
 
 From the **Collections** dropdown menu (between the **Export** and **Link Records** buttons in  the Citations Management interface) you can
-* **Create a new collection** from the set of citations currently filtered in the view
-* **Add to an existing collection** the set of citations currently filtered in the view
+* **Create a new collection** of citations from the set of citations currently filtered in the view
+* **Add to an existing collection** of citations the set of citations currently filtered in the view
 * or **view collections** you've made in the past
 
 To **Create a new collection**
@@ -550,38 +566,102 @@ See the [Creating New Authorities](#33-creating-new-authorities) section for hel
 
 ###  3.2.3 Bulk Change Authorities
 
+![image of isis cb bulk edit authorities interface](/media/bulkEditAuthorities.png)
+
+To access the Bulk Change Authorities interface, **click** the green **Bulk Change** button (between the **Export** and **Bulk Change (CSV)** buttons in the Authorities Management interface)
+
+The Bulk Change Authorities interface allows you to
+* Store creation data to citations
+* Reindex authorities
+* Delete duplicate Attributes
+
+> Warning: The **Bulk Change Authorities** interface contains advanced functionality and should not be used without admin permission
+
 [^ Up to Table of Contents](#table-of-contents)
 
 ---
 ###  3.2.4 Bulk Change CSV Authorities
+
+![image of isis cb bulk change (csv) authorities interface](/media/bulkChangeCSVAuthorities.png)
+
+To access the Bulk Change (CSV) Authorities interface, **click** the green **Bulk Change (CSV)** button (between the **Bulk Change** and **Bulk Select** buttons in the Authorities Management interface)
+
+The Bulk Change (CSV) Authorities interface allows you to edit authority-related data in a spreadsheet or .csv file and then upload that (converted to .csv) spreadsheet or .csv file to amend several different data aspects, including
+* Create Attributes
+* Update Elements
+* Create Linked Data
+* Create AC Relations
+* Create CC Relations
+* Create Authorities
+* Create Citations
+* Duplicate Authority Merge and Redirect
+
+> Warning: The **Bulk Change (CSV) Authorities** interface contains advanced functionality and should not be used without admin permission
 
 [^ Up to Table of Contents](#table-of-contents)
 
 ---
 ###  3.2.5 Bulk Select Authorities
 
+![image of the isis cb bulk select interface](/media/bulkSelectInterface.png)
+
+You can access the Bulk Select Authorities interface by clicking the blue **Bulk Select** button between the **Bulk Change (CSV)** and **Authorities** buttons in the Authorities Management interface (underneath the Search/Filter section of the page)
+
+The Bulk Select Authorities interface performs the same function as the `ID` field of the [Authorities Management Search interface](#321-searching-for-authorities), but if you need to grab a large number of citations by ID, then this interface is useful
+
+Simply enter a comma-separated list of citation IDs and **click** the green **Select** button. You will be redirected to the Authorities Management interface with your search results
+
 [^ Up to Table of Contents](#table-of-contents)
 
 ---
 ###  3.2.6 Export Authorities
+
+![image of isis cb export authorities interface](/media/exportAuthoritiesInterface.png)
+
+To access the Export Authorities interface, **click** the blue **Export** button between the **Create New Authority Record** and **Bulk Change** buttons in the Authorities Management interface (underneath the Search/Filter section of the page)
+
+To export a set of authorities:
+* enter an `Export Name`
+* select the `Export Format`
+  * .csv by default
+* check whether you want to `Export metadata`
+* select which authority fields you'd like to include in the export from the `Fields` multiselection box
+  * hold `ctrl/cmd` (window/mac) to select multiple fields
+* **click** the green **Create** button to begin the download
 
 [^ Up to Table of Contents](#table-of-contents)
 
 ---
 ###  3.2.7 Authorities Collections
 
+From the **Authorities** dropdown menu (to the right of the **Bulk Select** button in  the Authorities Management interface) you can
+* **Create a new collection** of authorities from the set of authorities currently filtered in the view
+* **Add to an existing collection** of authorities the set of authorities currently filtered in the view
+* or **view collections** of authorities you've made in the past
+
+To **Create a new collection**
+* select the first option from the **Authorities** dropdown menu
+* give the new collection a `Name`
+* *(optional)* give the new collection a `Description`
+* **click** the green **Create** button
+
 [^ Up to Table of Contents](#table-of-contents)
 
 ---
 ###  3.3 Creating New Authorities
 
-Through
+You may find yourself needing to create a new authority through
 * the [authority resolution process](#122-resolving-attached-Authorities)
 * the [citation curation interface](#22-the-citation-curation-interface)
 * the [create new authority record]() function of the [Authorities Management interface](#32-the-authorities-management-interface)
 * or, the [subjects and categories interface](#222-attaching-subjects-and-a-category)
 
-. . . you may need to create a new authority. The following sections walk you through the specifics of creating each type of authority
+The following sections walk you through the specifics of creating different types of authority with the [Authority Creation interface](https://data.isiscb.org/isis/curation/authority/add)
+
+> Note: before creating any authority **make sure that authority doesn't already exist in the IsisCB authority system**. You can search for authorities by
+>* clicking the blue **Explore, Authority Search** button (at the top of the Authorities Creation interface)
+>* clicking the blue **Explore, Curation Authority Search** button (at the top of the Authorities Creation interface)
+>* navigating to [the IsisCB Explorer](data.isiscb.org) and searching for the name of the authority
 
 [^ Up to Table of Contents](#table-of-contents)
 
@@ -679,12 +759,41 @@ If you feel a new time period authority needs to be created, contact an IsisCB a
 
 ![image of Isis CB geographic term authority creation interface](/media/createGeographicTermAuthority.png)
 
+To create a new Geographic Term authority:
+* select **Geographic Term** from the dropdown menu in the `Type` field
+* **fill out** the `Name` field
+* in a new browser tab, **navigate to** the [Geonames database](https://www.geonames.org/)
+* **search** for the geographic entity you are creating an authority format (see image below)
+  * be careful to **check** the `Feature class` and `Country` columns of the geonames search result to make sure you select the geonames record you're looking for
+* **click** the linked name in the `Name` column of the geonames search to navigate to the geonames record you're looking for
+* after geonames redirects you, **find** the geonames ID in the record URL
+  * e.g., if the URL is `https://www.geonames.org/3932488/republic-of-peru.html`, the ID is `3932488`
+* **copy** the geonames ID, **return** to the Authority Creation interface, and **paste** the geonames ID into the `URN (link to authority)` field
+* **make sure** the `Linked Data Type` dropdown is set to **GeoNames**
+* **set** the `Attribute Type` dropdown to **CountryCode**
+* in a new broswer tab, **navigate to** the [country codes reference](https://www.iban.com/country-codes)
+* **find** the two-letter country code for the country that either is, or contains, the geographic entity for which you are creating an authority
+* **return** to the Authority Creation interface and **enter** that country code in the **CountryCode** attribute `Value` field
+* **click** the green **Create & Continue** button in the upper-right corner to finalize the creation of the new Geographic Term authority
+
+![image of geonames search interface](geonamesSearchInterface.png)
+
 [^ Up to Table of Contents](#table-of-contents)
 
 ---
 ####  3.3.5 Creating a New Serial Publication
 
 ![image of Isis CB serial publication authority creation interface](/media/createSerialPublicationAuthority.png)
+
+To create a new Serial Publication authority:
+* select **Serial Publication** from the dropdown menu in the `Type` field
+* **fill out** the `Name` field
+* **click** the blue **Google** button (between the **Wikipedia** and **VIAF** buttons at the top right of the interface)
+* **locate** the official website for the journal (this will probably be through the journal's publishing company)
+* **find** the ISSN of the journal
+* **copy** the journal ISSN and **paste** it into the `URN (link to authority)` field
+* **make sure** to set the `Linked Data Type` dropdown to **ISSN**
+* **click** the green **Create & Continue** button in the upper-right corner to finalize the creation of the new Serial Publication authority
 
 [^ Up to Table of Contents](#table-of-contents)
 
@@ -693,12 +802,37 @@ If you feel a new time period authority needs to be created, contact an IsisCB a
 
 ![image of Isis CB concept authority creation interface](/media/createConceptAuthority.png)
 
+To create a new Serial Publication authority:
+* select **Serial Publication** from the dropdown menu in the `Type` field
+* **fill out** the `Name` field
+* **click** the blue **Wikipedia** button (between the **Explore, Curation Authority Search** and **Google** buttons at the top right of the interface)
+* **copy** the URL of the concept's wikipedia page and **paste** it into the `URN (link to authority)` field
+* **make sure** to set the `Linked Data Type` dropdown to **URL**
+* **click** the green **Create & Continue** button in the upper-right corner to finalize the creation of the new Serial Publication authority
+
 [^ Up to Table of Contents](#table-of-contents)
 
 ---
 
 ###  3.4 Editing Authorities
 
+![image of the isis cb authority editing interface](/media/editAuthorityInterface.png)
 
+You may access the Authority Editing interface
+* by clicking the edit button on an authority's public page
+* from the [ACR record interface](#223-acr-relations) where that authority is linked to a citation
+* from the [Subjects and Categories interface](#222-attaching-subjects-and-a-category) of the [Citation Curation interface](#22-the-citation-curation-interface)
+
+Even though the Authority Editing interface looks different than the Authority Creation interface, the functionality is basically the same.
+
+In the Authority Editing interface, the different properties of the authority are nested under tabs:
+* **Fields**
+* **Attributes**
+* **Linked Data**
+* **Related Citations**
+  * listing the citations connected to that authority through ACR records
+* **Related Authorities**
+  * listing the authorities connected to that authority through AAR records
+* **Tracking**
 
 [^ Up to Table of Contents](#table-of-contents)
