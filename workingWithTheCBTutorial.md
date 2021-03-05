@@ -150,6 +150,12 @@ Once your upload is complete you will automatically be redirected to the authori
 
 > Note: if the first authority to be resolved isn't highlighted in orange already (as seen above), click on that authority to do so
 
+> Note: if you have citations attached to other citations (e.g., reviews you're ingesting attached to the books they review), then those attachments will be verified at the bottom of the Authority Resolution interface ![image of isis cb authority resolution interface linked citations verification notification](/media/authorityResolutionCitationMatching.png)
+
+* Once you have resolved all the authorities in the import, **click** the green **Ingest Citations** button at the top-left of the Authority Resolution interface to finalize the ingest
+* You will be redirected to the [Citations Management interface](#31-the-citations-management-interface) where the citations you have just ingested with be listed out for you.
+* **click** on the ID of the first citation in the list (e.g. `CBB123456789`) to begin [curating these citations](#2-curating-citations) in the [Citation Curation interface](#22-the-citation-curation-interface)
+
 [^ Up to Table of Contents](#table-of-contents)
 
 ---
@@ -210,7 +216,56 @@ If for any reason you need to skip one of the authorities imported with the cita
 #  2 Curating Citations
 ##  2.1 Different Citation Types
 
+IsisCB uses many different citation types to characterize bibliographic records
+* Most commonly used
+  * **Book**
+    * make sure to include
+      * the **page length** in the `Extent` field
+      * the **publisher** in the `Hosting body` section
+  * **Article**
+    * make sure to include
+      * the **volume number** in the `Volume` field
+      * the **issue number** in the `No./episode` field
+      * the **page numbers** in the `Pages` field
+        * if the item was published online and either lacks page numbers or has a code assigned by the journal instead of page numbers it is okay to leave this field blank or to just include the page code provided
+      * the **journal** in which it was published in the `Hosting body` section
+      * if the article is part of a series, include the [CCR link](#224-ccr-relations) to the series introduction article in the `Linked Citations` section
+  * **Review**
+    * make sure to include
+    * the **volume number** in the `Volume` field
+    * the **issue number** in the `No./episode` field
+    * the **page numbers** in the `Pages` field
+      * if the item was published online and either lacks page numbers or has a code assigned by the journal instead of page numbers it is okay to leave this field blank or to just include the page code provided
+    * the **journal** in which it was published in the `Hosting body` section
+    * a [CCR link](#224-ccr-relations) to the book that the item reviews in the `Linked Citations` section
+  * **Chapter**
+    * a [CCR link](#224-ccr-relations) to the book of which it is a part in the `Linked Citations` section
+    * page numbers in the `Pages` field
+  * **Thesis**
+    * an [ACR link](#223-acr-relations) to the advisor of the thesis in the `Responsibility` section
+  * **Essay Review**
+    * a [CCR link](#224-ccr-relations) to the book that the item reviews in the `Linked Citations` section
+* Less commonly used
+  * Event
+  * Web Object
+  * Multimedia Object
+  * Archive Object
+  * Digital Resource
+  * Personal Recognition
 
+**All records should include**
+* [ACR links](#223-acr-relations) in the `Responsibility` section representing any authors, editors, contributors, advisors, translators, etc., where applicable
+* [ACR links](#223-acr-relations) in the `Hosting body` section representing any **Serial Publication** or **Publishing Institution**, where applicable
+* a date attribute in the `Dates` section
+* [ACR links](#223-acr-relations) in the `Categories and Subjects` section for [one (1) category and multiple subjects](#222-attaching-subjects-and-a-category)
+  * not required for records of type **Review**
+* a language selected from the `Language` input
+* an abstract in the `Abstract` field, including, where possible, an English translation of the abstract where applicable
+  * not required for records of type **Review**
+
+All of these fields can be seen in the [Citation Curation interface](#22-the-citation-curation-interface) below
+
+Many of these citation types also come with various **subtype** options with which to further characterize bibliographic records
 
 [^ Up to Table of Contents](#table-of-contents)
 
@@ -218,68 +273,172 @@ If for any reason you need to skip one of the authorities imported with the cita
 
 ##  2.2 The Citation Curation Interface
 
+![image of isis cb citation curation interface](/media/citationCurationInterface.png)
+
+The Citation Curation interface can be accessed through
+* the ID of a citation in a set of citations in the [Citations Management Interface](#31-the-citations-managment-interface)
+* the edit button on a citation's public page
+* a link to a citation in an [ACR record](#223-acr-relations)
+* a link to a citation in a [CCR record](#224-ccr-relations)
+
+If you accessed the Citation Curation interface through the Citations Management interface and the citation is part of a set of citations in a list in the Citations Management interface, then you can use the navigation links (**Prev**, **Back to List**, **Next**) at the top of the Citation Curation interface to navigate through that list of citations
+* When you [ingest a set of citations from an .rdf file](#12-doing-a-new-ingest), this is how you'll be curating that list of citations once you've finished [resolving authorities](#122-resolving-attached-authorities) and finalizing the ingest
+
+If you make any changes to the textbox fields of the Citation Curation interface (e.g., `Title`, `Ed. det.`, `Volume`, `No./Episode`, `Pages`, `Extent`, `Abstract`, etc.), you must save these changes using the green **Save** button in the top-right of the Citation Curation interface
 
 
+>Note: Fields to ignore:
+>* the `Set` field refers to the dataset to which the citation has been ingested
+>* the `Hist.` field details the citation's creation and ingest history and is auto-generated by the IsisCB system
+>* the `Ed. det.` field contains information not part of the title, but important for locating the record
+>* the `Status Expl.` field is auto-generated and need not be edited
 [^ Up to Table of Contents](#table-of-contents)
 
 ---
 ###  2.2.1 Citation Curation Interface Views
-
-
 
 [^ Up to Table of Contents](#table-of-contents)
 
 ---
 ####  2.2.1.1 Fields Tab
 
+![image of isis cb citation curation interface](/media/citationCurationInterface.png)
 
+The **Fields** tab contains the metadata most commonly used (much of which is required for each citation (see [Different Citation Types](#21-different-citation-types) for details))
+
+The `Categories and Subjects` section lists color-coded tags of the attached subjects and category. [Subjects and categories can be edited](#222-attaching-subjects-and-a-category) using the pencil icon in the top-right corner of the section
+* the topmost (light blue) tag represents the category assigned to the record
+* the remaining tags below represent the various subjects assigned to the record
+  * neon blue: time periods
+  * peach: people
+  * burnt orange: institutions
+  * green-grey: geographic terms
+  * pink: concepts
+
+> *Why this peculiar combination of weird colors, I have no idea . . .*
 
 [^ Up to Table of Contents](#table-of-contents)
 
 ---
 ####  2.2.1.2 Attributes Tab
 
+![image of isis cb citation curation interface attributes tab](/media/attributesTab.png)
 
+The **Attributes** tab displays any attributes (e.g., dates) attached to a citation
 
 [^ Up to Table of Contents](#table-of-contents)
 
 ---
 ####  2.2.1.3 Linked Data Tab
 
+![image of isis cb citation curation interface linked data tab](/media/linkedDataTab.png)
 
+The **Linked Data** tab displays in data linked to a citation (e.g., a DOI or a URI)
 
 [^ Up to Table of Contents](#table-of-contents)
 
 ---
 ####  2.2.1.4 Related Citations Tab
 
+![image of isis cb citation curation interface related citations tab](/media/relatedCitationsTab.png)
 
+The **Related Citations** tab displays in [CCR relations](#224-ccr-relations) involving the citation, e.g.,
+* a book it reviews
+* a series it's part of
+* a review it's reviewed by
 
 [^ Up to Table of Contents](#table-of-contents)
 
 ---
 ####  2.2.1.5 Related Authorities Tab
 
+![image of isis cb citation curation interface related authorities tab](/media/relatedAuthoritiesTab.png)
 
+The **Related Authorities** tab displays in [ACR relations](#223-acr-relations) involving the citation, e.g.,
+* authors, editors, contributors, etc.
+* publishers, or journals hosting it
+* subjects and categories
 
 [^ Up to Table of Contents](#table-of-contents)
 
 ---
 ####  2.2.1.6 Tracking Tab
 
+![image of isis cb citation curation interface tracking tab](/media/trackingTab.png)
 
+The **Tracking** tab displays the tracking history of a citation, including whether the citation has been marked as **Fully Entered**, **Proofed**, or **Authorized**
+* it also contains buttons in the top-right of the tab section where the citation can be manually marked as **Fully Entered**, **Proofed**, or **Authorized**
+  * **do not** mark records as **Authorized**. This is the responsibility of the IsisCB editor admin
+
+> Note: you can also manually change the tracking status to **Proofed** and the record status to **Active** using the orange **Proof and Activate** button next to the record status dropdown in the top left of the citation curation interface
+
+> Note: though you can manually change the tracking status of a record in this tab it is more efficient to change the record tracking status in bulk using the [**Bulk Change**](#313-bulk-change-citations) functionality of the Citation Management Interface
 
 [^ Up to Table of Contents](#table-of-contents)
 
 ---
 ###  2.2.2 Attaching Subjects and a Category
 
-
+Attaching subjects and categories is perhaps the most important and most thoughtful part of the curation process. Subject tagging citations is what turns them from individual bibliographic references to materials into a richly interconnected conceptual network. And attaching categories creates the conceptual hierarchy for the print version of the bibliography.
 
 [^ Up to Table of Contents](#table-of-contents)
 
 ---
 ####  2.2.2.1 Attaching Existing Subjects
+
+![image of isis cb subject and category tagging interface](/media/taggingInterface.png)
+
+The Categories and Subjects interface is accessed through the pencil icon in the `Categories and Subjects` section of the Citation Curation interface. It is divided into 3 columns
+* the contributor, title, and abstract are displayed for your reference in left column
+  * we base the tags off of the information contained in the title and abstract
+  * we may make inferences about tags from the abstract, for example, tagging the record with the concept `genetics` if it is about DNA, even though the word "genetics" isn't mentioned in the title or abstract
+  * but we do not want to make extrapolated guesses about the record from the abstract
+    * e.g., "I remember that in Denmark during this time period there was a lot of political upheaval so I'm going to add the tag `science and politics`"
+* the currently linked subjects and category are displayed in the center column
+* the authority search interface is in the right column
+
+**Some notes about the subject and category authority search and guidelines for its use:**
+* by default, searches in this interface include all kinds of authorities
+  * but you can narrow the search by checking  
+    * `C` for concepts
+    * `P` for people
+    * `I` for institutions
+    * `G` for geographic terms
+    * `T` for time periods
+    * `All` for clearing the search filters
+* the **magnifying glass icon** will force the search
+  * this is useful when you're searching for an authority using only 2 characters (e.g., searching for `qi`), because the auto-search only initiates when 3 or more characters are entered
+* the **Eras** tab is available for your convenience to scan the most commonly used time periods and save you from having to type them in
+  * but it does not represent all of the time periods in the database
+  * the numbered centuries go back to the `6th century, B.C.`
+  * there are more general named time periods, e.g., `Ancient` and `Early Modern`
+  * and there are time period authorities for various political epochs (e.g., `Edo period` Japan and `Song dynasty` China)
+  * as well as other commonly used periodizations by historians, e.g. `Progressive era` for American history
+* where applicable, **try to diversify the tags you apply across as many authority types as possible**
+  * ideally, every record will be tagged with a **geographic term**, a **time period**, and several **concepts**
+    * obviously don't force this, but if it's possible given then title and abstract information, then make sure to include it
+* be tactical about including catch-all concepts like `Science and society`, `Science and religion`, or `Science and gender`. . . they can be a crutch for avoiding a more specific analysis of the conceptual model of the record. They can also be very useful, but try not to use too many of them on any given record. Adding too many basically says, "this citation is about everything"
+* if you're struggling to find the authority you're looking for, or don't see one of the abstract's keywords in the search results, or simply looking for inspiration, use the **suggest feature**.
+  * clicking the yellow `S` button to the right of each search result opens up the **Suggest** tab (to the right of the **Eras** tab)
+  * the **Suggest** tab then displays a list of authorities that have been connected to the authority in question in other records in the database. This may help you find what you're looking for
+* **Cross-references** help organize the bibliography by consolidating authorities and help guide our decisions when tagging
+  * say you're looking for the tag `Ancient Greece` so you type that into the search box
+  * the result is an authority called `Ancient Greece --> Use Ancient // Greece` of type **Cross-reference**
+  * this means that, rather than having an additional authority for `Ancient Greece`, we use two tags, `Ancient` (**Time Period**) and `Greece` (**Geographic Term**) to capture this descriptor
+* **Cross-references** also help with term ambiguity and synonymy
+  * you may be looking for `Addiction` which seems fairly straightforward and common, but not finding that concept. The cross-reference authority will tell you that we use the concepts `Addictive behavior`, `Alcoholism`, and `Drug abuse` instead
+* While on the topic of synonyms. You may want to wait until you are very familiar with the subject ontology of the IsisCB before creating new  authorities. For most ambiguous terms and synonyms we don't have cross-references to guide you.
+  * you just have to slowly familiarize yourself with the usage of our ontology. For example, we don't have a concept for `Aliens`, we use `Extraterrestrial life` or `exobiology`
+  * at first you may think, "Oh, there definitely needs to be a concept for `Aliens`" but try to check all possible synonyms first and consult with admins about terminology until you familiarize yourself with the ontology
+  * some synonyms are pretty obvious and easy to intuit and check, like `Aliens` and `Extraterrestrial life`, others aren't so obvious, especially when they involve specialist jargon like `Teratology` or `Nosology`
+  * we want to have a robust dictionary of descriptors so we can capture the nuance of the scholarship, but we don't want a cluttered disjointed mess of infinite particularity and no generalizability, so **use synonyms where you can**, **consult with admins** about synonyms you can't find, and then and only then [**create new authorities**](#33-creating-new-authorities)
+* For **Geographic Terms**, only include the most specific descriptor possible. If a record takes place in Lagos, Nigeria (and not also in other places in Nigeria), use `Lagos` not `Nigeria`. Our geographic terms are organized into a hierarchical taxonomy, so our system knows that stories that take place in Lagos also take place in Nigeria and also take place in Africa, so we don't need to specify this through subject tagging
+* **Concept/Serial Publication Confusion**
+  * many concepts and serial publications are doppelgängers, especially for scientific and historical disciplines
+  * e.g., `Ecology`, `Environmental history`
+  * be mindful of the authority type in the blue box next to the authority name
+  * it also helps to note that, as proper names, every word in the title of a serial publication is capitalized, but in concepts only the first word is capitalized
+* **Gender** is a psychosocial construct and an historiographic analytic. Please do not tag every record that has anything to do with women with `Science and gender` or `Gender` just because it involves women. Would you tag every record that involves a man with `Gender`? No.
 
 
 
@@ -288,28 +447,71 @@ If for any reason you need to skip one of the authorities imported with the cita
 ---
 ####  2.2.2.2 Creating New Subjects
 
-
+If you're sure that a new authority needs to be created to adequately tag a citation  and you're sure that that authority does not already exist in the database, then use the [Authority Creation interface](#33-creating-new-authorities) to add it to the database. You can access the Authority Creation interface from the Categories and Subjects interface by clicking the **+ Add new authority** link on the right-hand side of the interface.
 
 [^ Up to Table of Contents](#table-of-contents)
 
 ---
 ####  2.2.2.3 Attaching Categories
 
+Attaching categories takes the longest to acquire of all the skills you'll use curating data in the IsisCB.
 
+Consult the [Categories scheme](dummylink.com) for help choosing Categories
+
+There are some guidelines that help with this process
+* each citation is tagged with only one (1) category
+* **Time Periods**
+  * if a citation's time period spans two centuries, use the earlier century as part of the category
+    * unless the citation spans only a very small portion of the earlier century relative to the later century, then use the later century
+  * if a citation's time period spans 3 or more centuries, do **not** include a time period as part of the category
+  * if the citation's time period involves the first half of the 20th century, or spans the first and second halves of the 20th century (and doesn't span any other century), use the time period **20th century** in the category
+  * if the citation's time period involves the second half of the 20th century at all (and doesn't span the first half of the 20th century), use the time period **20th century late; 21st century** in the category
+* **Disciplines**
+  * If a citation can be placed in a scientific discipline (e.g., chemistry, physics, biological sciences, etc.) place it there, even if it bleeds into other categories
+  * If a citation's categorical discipline is ambiguous, categorize it based on who you think will be hypothetically searching for that citation
 
 [^ Up to Table of Contents](#table-of-contents)
 
 ---
 ####  2.2.3 ACR Relations
 
+**ACR (Authority-Citation Relationship) records** can be created from
+* the [**Subjects and Categories interface**](#222-attaching-subjects-and-a-category) of the [**Citation Curation interface**](#22-the-citation-curation-interface)
+* the **+ Create new relation** button of the **Related Authorities** tab of the Citation Curation interface
+* the **+ Create new relation** button of the **Related Citations** tab of the [**Authority Curation interface**](#34-editing-authorities)
+* the `Responsibility` section of the Citation Curation interface
+* the `Hosting body` section of the Citation Curation interface
 
+The **ACR records** attached to any **citation** can be found in the [**Related Authorities** tab](#2215-related-authorities-tab) of that citation's [**Citation Curation interface**](#22-the-citation-curation-interface)
+
+The **ACR records** attached to any **authority** can be found in the **Related Citations** tab of that authority's [**Authority Curation interface**](#34-editing-authorities)
+> Note: the [**Authority Curation interface**](#34-editing-authorities) is different from the [**Authority Creation interface**](#33-creating-new-authorities)
+
+**ACR record** pages look like this:
+
+![image of isis cb acr record interface]('/media/acrRecordInterface.png')
+
+The `Type controlled` field in the left-hand column of the ACR record interface establishes the kind of relation between the **citation** (top of the right-hand column) and the **authority** (bottom of the right-hand column), so you can read the above record as: "the **person** named `Marian Lydia Shorey` is a **subject** of the **article** titled `A New Season for Experimental Neuroembryology`"
 
 [^ Up to Table of Contents](#table-of-contents)
 
 ---
 ####  2.2.4 CCR Relations
 
+**CCR (Citation-Citation Relationship) records** can be created from
+* the **+ Create new relation** button of the **Related Citations** tab of the [[**Citation Curation interface**](#22-the-citation-curation-interface)
+* the `Containing Citation` section of the Citation Curation interface
+* the `Linked Citation` section of the Citation Curation interface
 
+The CCR records attached to any **citation** can be found in the [**Related Citations** tab](#2214-related-citations-tab) of that citation's [**Citation Curation interface**](#22-the-citation-curation-interface)
+
+**CCR record** pages look like this:
+
+![image of isis cb ccr record interface]('/media/ccrRecordInterface.png')
+
+The `Type controlled` field in the left-hand column of the CCR record interface establishes the kind of relation between the two citations. The `type`s of relationships specified in the `Type controlled` field of CCR records are all directional relationships, so you can read the above record as: "the **book** titled `Ether and Modernity: The Recalcitrance of an Epistemic Object in the Early Twentieth Century` **Is Reviewed By** the **review** titled `"The Ether Drag Show"`"
+
+>Note: if you need to reverse the direction of the relationship described in a CCR record, simply click the **recycle arrows icon** between the two citations in the right-hand column of the **CCR Record interface**
 
 [^ Up to Table of Contents](#table-of-contents)
 
@@ -648,7 +850,7 @@ To **Create a new collection**
 [^ Up to Table of Contents](#table-of-contents)
 
 ---
-###  3.3 Creating New Authorities
+##  3.3 Creating New Authorities
 
 You may find yourself needing to create a new authority through
 * the [authority resolution process](#122-resolving-attached-Authorities)
@@ -657,6 +859,8 @@ You may find yourself needing to create a new authority through
 * or, the [subjects and categories interface](#222-attaching-subjects-and-a-category)
 
 The following sections walk you through the specifics of creating different types of authority with the [Authority Creation interface](https://data.isiscb.org/isis/curation/authority/add)
+
+> Note: Unless they are proper names, we only capitalize the first word in authority names, e.g. a **serial publication** titled `Electron Microscopy` versus the **concept** of `Electron microscopy`
 
 > Note: before creating any authority **make sure that authority doesn't already exist in the IsisCB authority system**. You can search for authorities by
 >* clicking the blue **Explore, Authority Search** button (at the top of the Authorities Creation interface)
@@ -814,11 +1018,11 @@ To create a new Serial Publication authority:
 
 ---
 
-###  3.4 Editing Authorities
+##  3.4 Editing Authorities
 
-![image of the isis cb authority editing interface](/media/editAuthorityInterface.png)
+![image of the isis cb authority curation interface](/media/editAuthorityInterface.png)
 
-You may access the Authority Editing interface
+You may access the Authority Curation interface
 * by clicking the edit button on an authority's public page
 * from the [ACR record interface](#223-acr-relations) where that authority is linked to a citation
 * from the [Subjects and Categories interface](#222-attaching-subjects-and-a-category) of the [Citation Curation interface](#22-the-citation-curation-interface)
@@ -830,7 +1034,7 @@ In the Authority Editing interface, the different properties of the authority ar
 * **Attributes**
 * **Linked Data**
 * **Related Citations**
-  * listing the citations connected to that authority through ACR records
+  * listing the citations connected to that authority through [ACR records](#223-acr-relations)
 * **Related Authorities**
   * listing the authorities connected to that authority through AAR records
 * **Tracking**
