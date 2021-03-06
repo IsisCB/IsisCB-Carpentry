@@ -81,7 +81,7 @@ The Zotero Accessions interface allows you to:
   * [search for past uploads or ingests](#111-searching-for-ingests) to access the 3 accessions functions:
     * [**resolve** their attached authorities](#122-resolving-attached-authorities) (blue button seen above)
     * **ingest** the upload once resolved (green button above)
-    * **view** a list of citations from that upload that have been resolved and ingested (yellow button above).
+    * **view** a list of citations (in the [Citations Management interface](#31-the-citations-management-interface)) from that upload that have been resolved and ingested (yellow button above).
 
 [^ Up to Table of Contents](#table-of-contents)
 
@@ -93,20 +93,20 @@ The Zotero Accessions interface allows you to:
 The accessions search interface allows you to find past uploads and ingests with a set of search filters.
 
 To access the zotero accessions search interface, click the blue "Show/hide filters" bar at the top of the zotero accessions interface. Filters include:
-* ID
+* `ID`
   * each upload is assigned a unique ID
-* Processed
+* `Processed`
   * a boolean denoting whether the upload has been processed (i.e. resolved and ingested)
-* Imported by
+* `Imported by`
   * the IsisCB user who originally uploaded the set of citations
-* Name starts with
+* `Name starts with`
   * this refers to the name assigned to the upload. When you [upload an .rdf file](#121-uploading-rdf-files), by default the name assigned to that upload is the filename as it exists on your local machine, but can be changed at the time of upload
-* Imported on or after/Imported on or before
+* `Imported on or after`/`Imported on or before`
   * a date that can be specified by:
     * typing in the date in the format `yyyy-mm-dd`
     * selecting the date using the calendar dropdown
-* Ingested to
-  * this refers to the dataset the .rdf file was uploaded to. By default, files are uploaded to the *Isis Bibliography of the History of Science (Stephen P. Weldon, ed.)* dataset
+* `Ingested to`
+  * this refers to the dataset the .rdf file was uploaded to. By default, files are uploaded to the `Isis Bibliography of the History of Science (Stephen P. Weldon, ed.)` dataset
 
 [^ Up to Table of Contents](#table-of-contents)
 
@@ -118,21 +118,21 @@ To access the zotero accessions search interface, click the blue "Show/hide filt
 
 ###  1.2.1 Uploading .rdf Files
 
-Begin a new ingest by clicking the green button on the left-hand side of the zotero accessions interface labeled **+Upload RDF**
+> Note: For help preparing .rdf files for this upload process, see our tutorial on [Data Prep with Zotero](/placeholder-link1.md)
 
-This opens to Upload dialog
+Begin a new ingest by clicking the green **+Upload RDF** button on the left-hand side of the **[Zotero Accessions interface](#11-the-zotero-accessions-interface)**  
+
+This opens the Upload interface
 
 ![image of Isis CB upload page](/media/uploadPage.png)
 
 From here  select an .rdf file from your local machine using the **Choose File** button seen above
 
-Do not change the assigned dataset in the **Ingest to** section of the upload process unless you are sure that you need to
+**Do not** change the assigned dataset in the **Ingest to** section of the upload process unless you are sure that you need to
 
 The `Name` field of the upload process will autofill using the name of the file you uploaded but can be changed if desired
 
-**Then, click the green Upload button**
-
-> Note: For help preparing .rdf files for this upload process, see our tutorial on [Data Prep with Zotero](/placeholder-link1.md)
+Then, **click** the green **Upload** button
 
 [^ Up to Table of Contents](#table-of-contents)
 
@@ -140,8 +140,8 @@ The `Name` field of the upload process will autofill using the name of the file 
 
 ###  1.2.2 Resolving Attached Authorities
 
-Once your upload is complete you will automatically be redirected to the authority resolution page
-* You can also access this page by searching for a previous upload through the Zotero Accessions interface and clicking the blue **Resolve** button attached to that upload
+Once your upload is complete you will automatically be redirected to the **Authority Resolution interface**
+* You can also access this page by searching for a previous upload through the [**Zotero Accessions interface**](#11-the-zotero-accessions-interface) and clicking the blue **Resolve** button attached to that upload
 
 ![image of Isis CB authority resolution page](/media/resolutionPage.png)
 
@@ -190,11 +190,11 @@ In this panel you can search for
 
 Click the **Create** button between the **Search** tab and the **Skip** button in the righthand Panel
 
-This will take you to the authority creation interface. See the [Creating New Authorities](#33-creating-new-authorities) section for help doing this
+This will take you to the **Authority Creation interface**. See the [Creating New Authorities](#33-creating-new-authorities) section for help doing this
 
 After you create a new authority from within the resolution process, the system will automatically link that new authority to the highlighted data item, redirect you back to the resolution page, and advance to the next data item needing to be linked
 
-> Note: if you decide you don't want to create a new authority after all and you use the browser's back button to return to the resolution page from the authority creation page, you may see some of your resolution progress appear to be undone. The post-data in the resolution page just hasn't caught up to your progress. Simply refresh the page and the system will catch up right where you left off
+> Note: if you decide you don't want to create a new authority after all and you use the browser's back button to return to the resolution interface from the authority creation interface, you may see some of your resolution progress appear to be undone. The post-data in the resolution page just hasn't caught up to your progress. Simply **refresh the page** and the system will catch up right where you left off
 
 
 [^ Up to Table of Contents](#table-of-contents)
@@ -222,7 +222,7 @@ IsisCB uses many different citation types to characterize bibliographic records
   * **Article**
     * make sure to include
       * the **volume number** in the `Volume` field
-      * the **issue number** in the `No./episode` field
+      * the **issue number** in the `No./Episode` field
       * the **page numbers** in the `Pages` field
         * if the item was published online and either lacks page numbers or has a code assigned by the journal instead of page numbers it is okay to leave this field blank or to just include the page code provided
       * the **journal** in which it was published in the `Hosting body` section
@@ -262,7 +262,7 @@ IsisCB uses many different citation types to characterize bibliographic records
 
 All of these fields can be seen in the [Citation Curation interface](#22-the-citation-curation-interface) below
 
-Many of these citation types also come with various **subtype** options with which to further characterize bibliographic records
+Many of these citation types also come with various `Subtype` options with which to further characterize bibliographic records
 
 [^ Up to Table of Contents](#table-of-contents)
 
@@ -278,17 +278,17 @@ The Citation Curation interface can be accessed through
 * a link to a citation in an [ACR record](#223-acr-relations)
 * a link to a citation in a [CCR record](#224-ccr-relations)
 
-If you accessed the Citation Curation interface through the Citations Management interface and the citation is part of a set of citations in a list in the Citations Management interface, then you can use the navigation links (**Prev**, **Back to List**, **Next**) at the top of the Citation Curation interface to navigate through that list of citations
+If you accessed the **Citation Curation interface** through the **Citations Management interface** and the citation is part of a set of citations in a list in the Citations Management interface, then you can use the navigation links (**Prev**, **Back to List**, **Next**) at the top of the Citation Curation interface to navigate through that list of citations
 * When you [ingest a set of citations from an .rdf file](#12-doing-a-new-ingest), this is how you'll be curating that list of citations once you've finished [resolving authorities](#122-resolving-attached-authorities) and finalizing the ingest
 
-If you make any changes to the textbox fields of the Citation Curation interface (e.g., `Title`, `Ed. det.`, `Volume`, `No./Episode`, `Pages`, `Extent`, `Abstract`, etc.), you must save these changes using the green **Save** button in the top-right of the Citation Curation interface
+If you make any changes to the textbox fields of the Citation Curation interface (e.g., `Title`, `Ed. det.`, `Volume`, `No./Episode`, `Pages`, `Extent`, `Abstract`, etc.), you must save these changes using the green **Save** button in the top-right of the **Citation Curation interface**
 
 
 >Note: Fields to ignore:
 >* the `Set` field refers to the dataset to which the citation has been ingested
 >* the `Hist.` field details the citation's creation and ingest history and is auto-generated by the IsisCB system
->* the `Ed. det.` field contains information not part of the title, but important for locating the record
 >* the `Status Expl.` field is auto-generated and need not be edited
+
 [^ Up to Table of Contents](#table-of-contents)
 
 ---
@@ -328,7 +328,7 @@ The **Attributes** tab displays any attributes (e.g., dates) attached to a citat
 
 ![image of isis cb citation curation interface linked data tab](/media/linkedDataTab.png)
 
-The **Linked Data** tab displays in data linked to a citation (e.g., a DOI or a URI)
+The **Linked Data** tab displays any data linked to a citation (e.g., a DOI or a URI)
 
 [^ Up to Table of Contents](#table-of-contents)
 
@@ -337,7 +337,7 @@ The **Linked Data** tab displays in data linked to a citation (e.g., a DOI or a 
 
 ![image of isis cb citation curation interface related citations tab](/media/relatedCitationsTab.png)
 
-The **Related Citations** tab displays in [CCR relations](#224-ccr-relations) involving the citation, e.g.,
+The **Related Citations** tab displays any [CCR relations](#224-ccr-relations) involving the citation, e.g.,
 * a book it reviews
 * a series it's part of
 * a review it's reviewed by
@@ -349,7 +349,7 @@ The **Related Citations** tab displays in [CCR relations](#224-ccr-relations) in
 
 ![image of isis cb citation curation interface related authorities tab](/media/relatedAuthoritiesTab.png)
 
-The **Related Authorities** tab displays in [ACR relations](#223-acr-relations) involving the citation, e.g.,
+The **Related Authorities** tab displays any [ACR relations](#223-acr-relations) involving the citation, e.g.,
 * authors, editors, contributors, etc. responsible for it
 * publishers, or journals hosting it
 * subjects and categories tagged to it
@@ -367,14 +367,14 @@ The **Tracking** tab displays the tracking history of a citation, including whet
 
 > Note: you can also manually change the tracking status to **Proofed** and the record status to **Active** using the orange **Proof and Activate** button next to the record status dropdown in the top left of the citation curation interface
 
-> Note: though you can manually change the tracking status of a record in this tab it is more efficient to change the record tracking status in bulk using the [**Bulk Change**](#313-bulk-change-citations) functionality of the Citation Management Interface
+> Note: though you can manually change the tracking status of a record in this tab it is more efficient to change the record tracking status in bulk using the [**Bulk Change**](#313-bulk-change-citations) functionality of the **Citation Management interface**
 
 [^ Up to Table of Contents](#table-of-contents)
 
 ---
 ###  2.2.2 Attaching Subjects and a Category
 
-Attaching subjects and categories is perhaps the most important and most thoughtful part of the curation process. Subject tagging citations is what turns them from individual bibliographic references to materials into a richly interconnected conceptual network. And attaching categories creates the conceptual hierarchy for the print version of the bibliography.
+Attaching subjects and categories is perhaps the most important and most thoughtful part of the curation process. Subject tagging citations is what turns them from individual bibliographic references to materials in a richly-interconnected conceptual network. And attaching categories creates the conceptual hierarchy for the print version of the bibliography.
 
 [^ Up to Table of Contents](#table-of-contents)
 
@@ -383,16 +383,16 @@ Attaching subjects and categories is perhaps the most important and most thought
 
 ![image of isis cb subject and category tagging interface](/media/taggingInterface.png)
 
-The Categories and Subjects interface is accessed through the pencil icon in the `Categories and Subjects` section of the Citation Curation interface. It is divided into 3 columns
-* the contributor, title, and abstract are displayed for your reference in left column
-  * we base the tags off of the information contained in the title and abstract
-  * we may make inferences about tags from the abstract, for example, tagging the record with the concept `genetics` if it is about DNA, even though the word "genetics" isn't mentioned in the title or abstract
-  * but we do not want to make extrapolated guesses about the record from the abstract
-    * e.g., "I remember that in Denmark during this time period there was a lot of political upheaval so I'm going to add the tag `science and politics`"
-* the currently linked subjects and category are displayed in the center column
-* the authority search interface is in the right column
+The Categories and Subjects interface is accessed through the **pencil icon** in the `Categories and Subjects` section of the [**Citation Curation interface**](#22-the-citation-curation-interface). It is divided into 3 columns
+* **the left column** contains the contributor, title, and abstract are displayed for your reference
+  * we base decisions about tags on the information contained in the title and abstract
+  * we may make inferences about tags from the abstract, for example, tagging the record with the concept `Genetics` if it is about DNA, even though the word "genetics" isn't mentioned in the title or abstract
+  * but we do not want to make extrapolated guesses about the record when tagging
+    * e.g., "I remember that in Denmark during this time period there was a lot of political upheaval so I'm going to add the tag `Science and politics`"
+* **The central column** contains the currently linked subjects and category
+* **The right column** contains the authority search interface
 
-**Some notes about the subject and category authority search and guidelines for its use:**
+### Some notes about the subject and category authority search and guidelines for its use:
 * by default, searches in this interface include all kinds of authorities
   * but you can narrow the search by checking  
     * `C` for concepts
@@ -433,7 +433,7 @@ The Categories and Subjects interface is accessed through the pencil icon in the
   * e.g., `Ecology`, `Environmental history`
   * be mindful of the authority type in the blue box next to the authority name
   * it also helps to note that, as proper names, every word in the title of a serial publication is capitalized, but in concepts only the first word is capitalized
-* **Gender** is a psychosocial construct and an historiographic analytic. Please do not tag every record that has anything to do with women with `Science and gender` or `Gender` just because it involves women. Would you tag every record that involves a man with `Gender`? No.
+* **Gender** is a psychosocial construct and an analytic approach. Please do not tag every record that has anything to do with women with `Science and gender` or `Gender` just because it involves women. Would you tag every record that involves a man with `Gender`? No.
 
 
 
@@ -477,7 +477,7 @@ There are some guidelines that help with this process
 * the `Responsibility` section of the Citation Curation interface
 * the `Hosting body` section of the Citation Curation interface
 
-The **ACR records** attached to any **citation** can be found in the [**Related Authorities** tab](#2215-related-authorities-tab) of that citation's [**Citation Curation interface**](#22-the-citation-curation-interface)
+The **ACR records** attached to any **citation** can be found in the [**Related Authorities tab**](#2215-related-authorities-tab) of that citation's [**Citation Curation interface**](#22-the-citation-curation-interface)
 
 The **ACR records** attached to any **authority** can be found in the **Related Citations** tab of that authority's [**Authority Curation interface**](#34-editing-authorities)
 > Note: the [**Authority Curation interface**](#34-editing-authorities) is different from the [**Authority Creation interface**](#33-creating-new-authorities)
@@ -494,7 +494,7 @@ The `Type controlled` field in the left-hand column of the ACR record interface 
 ####  2.2.4 CCR Relations
 
 **CCR (Citation-Citation Relationship) records** can be created from
-* the **+ Create new relation** button of the **Related Citations** tab of the [[**Citation Curation interface**](#22-the-citation-curation-interface)
+* the **+ Create new relation** button of the **Related Citations** tab of the [**Citation Curation interface**](#22-the-citation-curation-interface)
 * the `Containing Citation` section of the Citation Curation interface
 * the `Linked Citation` section of the Citation Curation interface
 
@@ -504,7 +504,7 @@ The CCR records attached to any **citation** can be found in the [**Related Cita
 
 ![image of isis cb ccr record interface](/media/ccrRecordInterface.png)
 
-The `Type controlled` field in the left-hand column of the CCR record interface establishes the kind of relation between the two citations. The `type`s of relationships specified in the `Type controlled` field of CCR records are all directional relationships, so you can read the above record as: "the **book** titled `Ether and Modernity: The Recalcitrance of an Epistemic Object in the Early Twentieth Century` **Is Reviewed By** the **review** titled `"The Ether Drag Show"`"
+The `Type controlled` field in the left-hand column of the CCR record interface establishes the kind of relation between the two citations. The types of relationships specified in the `Type controlled` field of CCR records are all directional relationships, so you can read the above record as: "the **book** titled `Ether and Modernity: The Recalcitrance of an Epistemic Object in the Early Twentieth Century` **Is Reviewed By** the **review** titled `"The Ether Drag Show"`"
 
 >Note: if you need to reverse the direction of the relationship described in a CCR record, simply click the **recycle arrows icon** between the two citations in the right-hand column of the **CCR Record interface**
 
@@ -520,6 +520,8 @@ There are two Datasets Management interfaces
 * [The Authorities Management interface](#32-the-authorities-management-interface)
 
 These management interfaces are explained in detail below
+
+[^ Up to Table of Contents](#table-of-contents)
 
 ##  3.1 The Citations Management Interface
 
@@ -542,12 +544,11 @@ These 6 functions are covered in detail below
 
 ![image of isis cb citations management search](/media/citationsManagementSearch.png)
 
-To access the Citations Search Interface, **click** the blue **Show/hide filters** bar in the Citatations Management Interfaces
+To access the **Citations Search Interface**, **click** the blue **Show/hide filters** bar in the **Citatations Management interface**
 
 The search interface will expand revealing several search filter fields:
 * `Combined`
-  * for a compound search cross-referencing multiple filters separated by commas
-  * using the format `Title, Author, Description, Abstract, Subject, Category`
+  * for a compound search cross-referencing multiple filters
 * `Title`
 * `Au./Ed.`
   * for filtering by citation author or editor
@@ -579,7 +580,7 @@ The search interface will expand revealing several search filter fields:
   * the Isis CB user who last made an edit to the citation
 * `Database`
 * `Collection`
-  * a set of records can be [assigned to a collection](#316-citations-collections). You can search for those collections here
+  * a set of records can be [assigned to a collection](#316-citations-collections). You can search for those collections by name here
 * `Zotero`
   * this filter is used to search for sets of citations that were uploaded and ingested together. This is equivalent to [searching for ingests and uploads in the Zotero Accessions Interface](#111-searching-for-ingests) and clicking the **view** button there
 * `Creator`
@@ -596,13 +597,13 @@ The search interface will expand revealing several search filter fields:
 
 ![image of isis cb create new citation record interface](/media/createNewCitationRecord.png)
 
-The **Create a New Citation Record** interface can be accessed by clicking the blue **Create New Citation Record** button on the left side of the Citations Management Interface (below the Search/Filter Interface section of the page)
+The **Create a New Citation Record** interface can be accessed by clicking the blue **Create New Citation Record** button on the left side of the **Citations Management interface** (below the Search/Filter interface section of the page)
 
 This is an alternative to [creating citations through the .rdf file ingest process](#12-doing-a-new-ingest). This function allows you to create only one citation at a time.
 
 > When creating citations using this function, **Follow the [guidelines for creating the different citation types](#21-different-citation-types)**
 
-Once you've filled out the necessary metadata of the citation, **click** the green **Creat & Continue** button
+Once you've filled out the necessary metadata of the citation, **click** the green **Create & Continue** button
 
 [^ Up to Table of Contents](#table-of-contents)
 
@@ -612,7 +613,7 @@ Once you've filled out the necessary metadata of the citation, **click** the gre
 
 ![image for Isis CB bulk change interface](/media/bulkChangeInterface.png)
 
-There are several changes you can make to citations in bulk as seen in the `Action` selection box of the Bulk Change Interface. Most of these types of changes are advanced functionality for database administrators that you can ignore. The two that you will need to use regularly are
+There are several changes you can make to citations in bulk as seen in the `Action` selection box of the **Bulk Change interface**. Most of these types of changes are advanced functionality for database administrators that you can ignore. The two that you will need to use regularly are
 * `Set Record Status`
 * `Set Record Tracking Status`
 
@@ -624,7 +625,7 @@ Once you've selected the functions you want to run, the function options will ap
 
 You'll be taken to the Bulk Change Progress page
 
-When the progress bar fills blue and reads **Done!**, **click** the green **Return to Search Interface** button at the bottom of the page to be redirected to the Citations Management Interface  
+When the progress bar fills blue and reads **Done!**, **click** the green **Return to Search Interface** button at the bottom of the page to be redirected to the [**Citations Management interface**](#31-the-citations-management-interface)  
 
 > Note: When you're redirected to the Citations Management Interface, you will be inside a search containing the same citations you've just made a bulk change to. This way you can make further changes to this set of citations as necessary
 
@@ -642,7 +643,7 @@ When the progress bar fills blue and reads **Done!**, **click** the green **Retu
 
 ![image of the isis cb bulk select interface](/media/bulkSelectInterface.png)
 
-You can access the Bulk Select interface by clicking the blue **Bulk Select** button between the **Bulk Change** and **Export** buttons in the Citations Management interface (underneath the Search/Filter section of the page)
+You can access the Bulk Select interface by clicking the blue **Bulk Select** button between the **Bulk Change** and **Export** buttons in the [**Citations Management interface**](#31-the-citations-management-interface) (underneath the Search/Filter section of the page)
 
 The Bulk Select interface performs the same function as the `ID` field of the [Citations Management Search interface](#311-searching-for-citations), but if you need to grab a large number of citations by ID, then this interface is useful
 
@@ -656,7 +657,7 @@ Simply enter a comma-separated list of citation IDs and **click** the green **Se
 
 ![image of isis cb export citations interface](/media/exportInterface.png)
 
-To access the Export Citations interface, **click** the blue **Export** button between the **Bulk Select** and **Collections** buttons in the Citations Management interface (underneath the Search/Filter section of the page)
+To access the Export Citations interface, **click** the blue **Export** button between the **Bulk Select** and **Collections** buttons in the [**Citations Management interface**](#31-the-citations-management-interface) (underneath the Search/Filter section of the page)
 
 To export a set of citations:
 * enter an `Export Name`
@@ -679,8 +680,8 @@ To export a set of citations:
 
 From the **Collections** dropdown menu (between the **Export** and **Link Records** buttons in  the Citations Management interface) you can
 * **Create a new collection** of citations from the set of citations currently filtered in the view
-* **Add to an existing collection** of citations the set of citations currently filtered in the view
-* or **view collections** you've made in the past
+* **Add to an existing collection** the set of citations currently filtered in the view
+* **view collections** you've made in the past
 
 To **Create a new collection**
 * select the first option from the **Collections** dropdown menu
@@ -713,7 +714,7 @@ These 7 functions are covered in detail below
 
 ![image of isis cb authorities management search](/media/authoritiesManagementSearch.png)
 
-To access the Citations Search Interface, **click** the blue **Show/hide filters** bar in the Authorities Management Interfaces
+To access the Authorities Search Interface, **click** the blue **Show/hide filters** bar in the Authorities Management interface
 
 The search interface will expand revealing several search filter fields:
 * `Name`
@@ -722,7 +723,7 @@ The search interface will expand revealing several search filter fields:
 * `Clas.Code`
   * each category and category sub-component in the IsisCB classification system has a unique numerical code. Use this field to filter category authorities according to this code
 * `Clas.Hier.`
-  * use this field to filter authorities according to where the fall in the IsisCB classification system hierarchy
+  * use this field to filter authorities according to where they fall in the IsisCB classification system hierarchy
 * `Id`
   * each authority is assigned a unique ID on creation
   * use this field to search for individual authorities by ID, or
@@ -745,9 +746,9 @@ The search interface will expand revealing several search filter fields:
 * `Zotero`
   * this filter is used to search for sets of authorities that were uploaded and ingested together through the [Zotero Accessions interface](#11-the-zotero-accessions-interface)
 * `Creator`
-  * the Isis CB user who originally created the citation, either through the [ingest process](#12-doing-a-new-ingest) or using the [Create a New Citation Record](#312-create-a-new-citation-record) function in the Citations Management Interface
+  * the Isis CB user who originally created the authority
 * `Modified/Created after/before`
-  * for filtering by the date an authority was modified, or created
+  * for filtering by the date an authority was modified or created
   * dates may be typed using the format `yyyy-mm-dd` or selected from the calendar dropdown
 
 [^ Up to Table of Contents](#table-of-contents)
@@ -804,9 +805,9 @@ The Bulk Change (CSV) Authorities interface allows you to edit authority-related
 
 You can access the Bulk Select Authorities interface by clicking the blue **Bulk Select** button between the **Bulk Change (CSV)** and **Authorities** buttons in the Authorities Management interface (underneath the Search/Filter section of the page)
 
-The Bulk Select Authorities interface performs the same function as the `ID` field of the [Authorities Management Search interface](#321-searching-for-authorities), but if you need to grab a large number of citations by ID, then this interface is useful
+The Bulk Select Authorities interface performs the same function as the `ID` field of the [Authorities Management Search interface](#321-searching-for-authorities), but if you need to grab a large number of authorities by ID, then this interface is useful
 
-Simply enter a comma-separated list of citation IDs and **click** the green **Select** button. You will be redirected to the Authorities Management interface with your search results
+Simply enter a comma-separated list of authority IDs and **click** the green **Select** button. You will be redirected to the Authorities Management interface with your search results
 
 [^ Up to Table of Contents](#table-of-contents)
 
@@ -815,7 +816,7 @@ Simply enter a comma-separated list of citation IDs and **click** the green **Se
 
 ![image of isis cb export authorities interface](/media/exportAuthoritiesInterface.png)
 
-To access the Export Authorities interface, **click** the blue **Export** button between the **Create New Authority Record** and **Bulk Change** buttons in the Authorities Management interface (underneath the Search/Filter section of the page)
+To access the Export Authorities interface, **click** the blue **Export** button between the **Create New Authority Record** and **Bulk Change** buttons in the [**Authorities Management interface**](#32-the-authorities-management-interface) (underneath the Search/Filter section of the page)
 
 To export a set of authorities:
 * enter an `Export Name`
@@ -831,10 +832,10 @@ To export a set of authorities:
 ---
 ###  3.2.7 Authorities Collections
 
-From the **Authorities** dropdown menu (to the right of the **Bulk Select** button in  the Authorities Management interface) you can
+From the **Authorities** dropdown menu (to the right of the **Bulk Select** button in the [**Authorities Management interface**](#32-the-authorities-management-interface)) you can
 * **Create a new collection** of authorities from the set of authorities currently filtered in the view
-* **Add to an existing collection** of authorities the set of authorities currently filtered in the view
-* or **view collections** of authorities you've made in the past
+* **Add to an existing collection** the set of authorities currently filtered in the view
+* **view collections** of authorities you've made in the past
 
 To **Create a new collection**
 * select the first option from the **Authorities** dropdown menu
@@ -847,19 +848,19 @@ To **Create a new collection**
 ---
 ##  3.3 Creating New Authorities
 
-You may find yourself needing to create a new authority through
-* the [authority resolution process](#122-resolving-attached-Authorities)
-* the [citation curation interface](#22-the-citation-curation-interface)
-* the [create new authority record]() function of the [Authorities Management interface](#32-the-authorities-management-interface)
-* or, the [subjects and categories interface](#222-attaching-subjects-and-a-category)
+You may find yourself using the [Authority Creation interface](https://data.isiscb.org/isis/curation/authority/add) to create a new authority through
+* the [Authority Resolution interface](#122-resolving-attached-Authorities) of the upload and ingest process
+* the `Responsibility` or `Hosting body` sections of the [**Citation Curation interface**](#22-the-citation-curation-interface)
+* the **Create New Authority Record function** of the [**Authorities Management interface**](#32-the-authorities-management-interface)
+* or, the [subjects and categories interface](#222-attaching-subjects-and-a-category) of the **Citation Curation interface**
 
-The following sections walk you through the specifics of creating different types of authority with the [Authority Creation interface](https://data.isiscb.org/isis/curation/authority/add)
+The following sections walk you through the specifics of creating different types of authorities with the [Authority Creation interface](https://data.isiscb.org/isis/curation/authority/add)
 
 > Note: Unless they are proper names, we only capitalize the first word in authority names, e.g. a **serial publication** titled `Electron Microscopy` versus the **concept** of `Electron microscopy`
 
 > Note: before creating any authority **make sure that authority doesn't already exist in the IsisCB authority system**. You can search for authorities by
->* clicking the blue **Explore, Authority Search** button (at the top of the Authorities Creation interface)
->* clicking the blue **Explore, Curation Authority Search** button (at the top of the Authorities Creation interface)
+>* clicking the blue **Explore, Authority Search** button (at the top of the **Authority Creation interface**)
+>* clicking the blue **Explore, Curation Authority Search** button (at the top of the **Authority Creation interface**)
 >* navigating to [the IsisCB Explorer](data.isiscb.org) and searching for the name of the authority
 
 [^ Up to Table of Contents](#table-of-contents)
@@ -871,22 +872,22 @@ The following sections walk you through the specifics of creating different type
 
 To create a new Person authority, first select **Person** from the dropdown menu in the `Type` field
 
-Fill out the `Name` field using the format `[lastName, firstName]`
+Fill out the `Name` field using the format `lastName, firstName`
 * once you fill out the `Name` field, the `Last` and `First` fields will auto-populate
 
-> Note: if you are creating a new  authority from the authority resolution interface of the ingest process, the `Name` field will already be filled out for you
+> Note: if you are creating a new  authority from the **Authority Resolution interface** of the ingest process, the `Name` field will already be filled out for you
 
-Click the blue **VIAF** button at the top of the authority creation interface
+Click the blue **VIAF** button at the top of the **Authority Creation interface**
 * this will open up a VIAF search for the authority name in a new tab
 * you may have to adjust the VIAF search to find the person
-* if the name is common and VIAF returns many results, the find `(ctrl/cmd+f)` function of your browser can help you more efficiently scan the results
+* if the name is common and VIAF returns many results, the find (`ctrl/cmd+f`) function of your browser can help you more efficiently scan the results
 * when you find a promising candidate, open its VIAF page (see image below)
 
 [![image of virtual international authority file record page](/media/viafAuthorityPage.png)](http://viaf.org/viaf/22146457)
 
-> Note: use the **Works** section of the VIAF authority page to help you decide whether this VIAF page represents the person or institution you're looking for
+> Note: use the **Works** section of the VIAF authority page to help you decide whether this VIAF page represents the person you're looking for
 
-Once you've decided this is the correct VIAF page for the authority you're creating, copy the VIAF **permalink** (it's beneath the list of names an the VIAF ID at the top of the VIAF record)
+Once you've decided this is the correct VIAF page for the authority you're creating, copy the VIAF **permalink** (it's beneath the list of names and the VIAF ID at the top of the VIAF record)
 
 Switch back to the authority creation tab and paste the VIAF permalink into the `URN (link to authority)` field
 * make sure **VIAF** is selected in the `Linked Data Type` field dropdown menu
@@ -902,7 +903,7 @@ If the person cannot be found in VIAF
 
 Once you have a VIAF permalink or another URL for the Person, **Click** the green **Create & Continue** button at the top-right of the authority creation interface to finalize the creation of this Authority
 
-> Note: if you initated the authority creation from the Subjects and Categories interface, this newly created authority will not automatically be linked as a subject to the citation. You will have to search for and select the newly created authority in the Subjects and Categories interface
+> Note: if you initated the authority creation from the [**Subjects and Categories interface**](#222-attaching-subjects-and-a-category), this newly created authority will not automatically be linked as a subject to the citation. You will have to search for and select the newly created authority in the Subjects and Categories interface
 
 [^ Up to Table of Contents](#table-of-contents)
 
@@ -917,18 +918,18 @@ Fill out the `Name` field
 
 > Note: if you are creating a new  authority from the authority resolution interface of the ingest process, the `Name` field will already be filled out for you
 
-Click the blue **VIAF** button at the top of the authority creation interface
+Click the blue **VIAF** button at the top of the **Authority Creation interface**
 * this will open up a VIAF search for the authority name in a new tab
 * you may have to adjust the VIAF search to find the person
-* if the name is common and VIAF returns many results, the find `(ctrl/cmd+f)` function of your browser can help you more efficiently scan the results
+* if the name is common and VIAF returns many results, the find (`ctrl/cmd+f`) function of your browser can help you more efficiently scan the results
 * for institutions, the `type` field of the VIAF search results will be listed as **Corporate**
 * when you find a promising candidate, open its VIAF page (see image below)
 
 [![image of virtual international authority file record page](/media/viafAuthorityPage.png)](http://viaf.org/viaf/22146457)
 
-> Note: use the **Works** section of the VIAF authority page to help you decide whether this VIAF page represents the person or institution you're looking for
+> Note: use the **Works** section of the VIAF authority page to help you decide whether this VIAF page represents the institution you're looking for
 
-Once you've decided this is the correct VIAF page for the authority you're creating, copy the VIAF **permalink** (it's beneath the list of names an the VIAF ID at the top of the VIAF record)
+Once you've decided this is the correct VIAF page for the authority you're creating, copy the VIAF **permalink** (it's beneath the list of names and the VIAF ID at the top of the VIAF record)
 
 Switch back to the authority creation tab and paste the VIAF permalink into the `URN (link to authority)` field
 * make sure **VIAF** is selected in the `Linked Data Type` field dropdown menu
@@ -962,8 +963,8 @@ To create a new Geographic Term authority:
 * select **Geographic Term** from the dropdown menu in the `Type` field
 * **fill out** the `Name` field
 * in a new browser tab, **navigate to** the [Geonames database](https://www.geonames.org/)
-* **search** for the geographic entity you are creating an authority format (see image below)
-  * be careful to **check** the `Feature class` and `Country` columns of the geonames search result to make sure you select the geonames record you're looking for
+* **search** for the geographic entity you are creating an authority for (see image below)
+  * be careful to **check** the `Feature class` and `Country` columns of the geonames search results to make sure you select the geonames record you're looking for
 * **click** the linked name in the `Name` column of the geonames search to navigate to the geonames record you're looking for
 * after geonames redirects you, **find** the geonames ID in the record URL
   * e.g., if the URL is `https://www.geonames.org/3932488/republic-of-peru.html`, the ID is `3932488`
@@ -1001,9 +1002,10 @@ To create a new Serial Publication authority:
 
 ![image of Isis CB concept authority creation interface](/media/createConceptAuthority.png)
 
-To create a new Serial Publication authority:
-* select **Serial Publication** from the dropdown menu in the `Type` field
+To create a new Concept authority:
+* select **Concept** from the dropdown menu in the `Type` field
 * **fill out** the `Name` field
+  * if the named concept exists in many different fields of knowledge, has an acronym, or needs contextualization, include this in parentheses at the end of the concept name (e.g., `Pluralism (philosophy)`, `National Aeronautics and Space Administration (NASA)`, `ASCII (Character set)` )
 * **click** the blue **Wikipedia** button (between the **Explore, Curation Authority Search** and **Google** buttons at the top right of the interface)
 * **copy** the URL of the concept's wikipedia page and **paste** it into the `URN (link to authority)` field
 * **make sure** to set the `Linked Data Type` dropdown to **URL**
@@ -1021,6 +1023,7 @@ You may access the Authority Curation interface
 * by clicking the edit button on an authority's public page
 * from the [ACR record interface](#223-acr-relations) where that authority is linked to a citation
 * from the [Subjects and Categories interface](#222-attaching-subjects-and-a-category) of the [Citation Curation interface](#22-the-citation-curation-interface)
+* from the `Responsibility` or `Hosting body` section of the **Citation Curation interface** (for **Person**, **Institution**, or **Serial Publication** authorities)
 
 Even though the Authority Editing interface looks different than the Authority Creation interface, the functionality is basically the same.
 
