@@ -1,14 +1,14 @@
 # Zotero training tutorial (draft)
-
+---
 ## Zotero: an overview
 - [Getting started](https://docs.google.com/document/d/129xI6Vzolvi7TuFDCHYtkMj7iJMgNJAcpC6T0I6pTiM/edit)
 
 ## Using Zotero for the IsisCB
-- Collecting citations
+- Collecting citations with Zotero
   - Where is the damn abstract? Searching the web for information
   - Publisher webpages
   - Google Books
-  - Booksellers (Casalini Libri, etc.)
+  - Booksellers (the Italian case: Casalini Libri, etc.)
   - Institutional bibliographies (Museo Galileo, etc.)
 - Wait. Is that book already there? The [Context Menu Search Application](https://docs.google.com/document/d/1IQABETTQkOKRyRgiyX92tPYnp8ZUIe5EqjElks1dQbo/edit)
 
@@ -16,7 +16,13 @@
 - Subjects
 - Categories
 
-## Keeping folders organized
+## Keeping folders (well) organized
+- Books (Monographs)
+- Books (Edited volumes)
+  - Book sections (Chapters in edited volumes)
+- Journal articles
+- Book reviews
+- Thesis (Dissertations)
 
 ## General troubleshooting
 - [Dear Bibliographer...](https://docs.google.com/document/d/1obVhg7vGgnO7Q6lFrSKrEd3_4UlvVJ4LGtZP-Q3tN4g/edit)
