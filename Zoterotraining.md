@@ -2,10 +2,12 @@
 ---
 ## Zotero: an overview
 - [Getting started](https://docs.google.com/document/d/129xI6Vzolvi7TuFDCHYtkMj7iJMgNJAcpC6T0I6pTiM/edit)
+ - Setting up Zotero
+ - Zotero web clipper
 
 ## Using Zotero for the IsisCB
 - Collecting citations with Zotero
-  - Where is the damn abstract? Searching the web for information
+  - Where is the damn abstract? Searching the web for information: find the best data first
   - Publisher webpages
   - Google Books
   - Booksellers (the Italian case: Casalini Libri, etc.)
