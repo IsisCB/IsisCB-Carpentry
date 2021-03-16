@@ -1,10 +1,13 @@
 [![isis bibliography logo](https://github.com/IsisCB/IsisCB-Carpentry/blob/main/media/isisCBLogoThumbnail.jpg)](https://data.isiscb.org/)
 # Tutorial: Working with Zotero for the IsisCB
 ---
-## Zotero: an overview
-- [Getting started](https://docs.google.com/document/d/129xI6Vzolvi7TuFDCHYtkMj7iJMgNJAcpC6T0I6pTiM/edit)
-  - Setting up Zotero
-  - Zotero web clipper
+
+## Table of contents
+
+* 1 Zotero: an overview
+* 2 [Getting started](https://docs.google.com/document/d/129xI6Vzolvi7TuFDCHYtkMj7iJMgNJAcpC6T0I6pTiM/edit)
+  * 2.1 Setting up Zotero
+  * 2.2 Zotero web clipper
 
 ## Using Zotero for the IsisCB
 - Collecting citations with Zotero
