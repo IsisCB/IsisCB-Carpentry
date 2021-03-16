@@ -1,4 +1,5 @@
-# Zotero training tutorial
+[![isis bibliography logo](https://github.com/IsisCB/IsisCB-Carpentry/blob/main/media/isisCBLogoThumbnail.jpg)](https://data.isiscb.org/)
+# Tutorial: Working with Zotero for the IsisCB
 ---
 ## Zotero: an overview
 - [Getting started](https://docs.google.com/document/d/129xI6Vzolvi7TuFDCHYtkMj7iJMgNJAcpC6T0I6pTiM/edit)
