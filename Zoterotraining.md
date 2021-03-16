@@ -29,3 +29,6 @@
 * 4 General troubleshooting
   * 4.1 [Dear Bibliographer...](https://docs.google.com/document/d/1obVhg7vGgnO7Q6lFrSKrEd3_4UlvVJ4LGtZP-Q3tN4g/edit)
   * 4.2 [Extra notes for contributing editors](https://docs.google.com/document/d/0B0jCfLwcJlQrdEgzZXpqQ3c0eUxFYldhUHJpVVlvZFhKVjVZ/edit)
+---
+
+[^ Up to Table of Contents](#table-of-contents)
