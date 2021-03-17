@@ -4,7 +4,7 @@
 
 ## Table of contents
 
-* 1 [Overview](##Overview)
+* 1 [Overview](##1-Overview)
   * 1.1 What is Zotero?
 * 2 [Getting started](https://docs.google.com/document/d/129xI6Vzolvi7TuFDCHYtkMj7iJMgNJAcpC6T0I6pTiM/edit)
   * 2.1 Setting up Zotero
