@@ -33,6 +33,7 @@
 ---
 
 ## 1 Overview
+---
 ### 1.1 What is Zotero?
 
 [Zotero](https://www.zotero.org/) is a project of the Corporation for Digital Scholarship, a nonprofit organization dedicated to the development of software and services for researchers and cultural heritage institutions. It is a free, open-source reference management software to manage bibliographic data and related research materials (such as, for example, PDF files). Notable features include web browser integration, online syncing, generation of in-text citations, footnotes, and bibliographies, as well as integration with the word processors Microsoft Word, LibreOffice Writer, and Google Docs.
