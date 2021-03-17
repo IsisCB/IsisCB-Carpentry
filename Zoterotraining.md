@@ -5,7 +5,7 @@
 ## Table of contents
 
 * 1 [Overview](##Overview)
-  * What is Zotero?
+  * 1.1 What is Zotero?
 * 2 [Getting started](https://docs.google.com/document/d/129xI6Vzolvi7TuFDCHYtkMj7iJMgNJAcpC6T0I6pTiM/edit)
   * 2.1 Setting up Zotero
   * 2.2 Zotero web clipper
@@ -33,7 +33,7 @@
 ---
 
 ## 1 Overview
-* What is Zotero?
+### What is Zotero?
 
 [Zotero](https://www.zotero.org/) is a project of the Corporation for Digital Scholarship, a nonprofit organization dedicated to the development of software and services for researchers and cultural heritage institutions. It is a free, open-source reference management software to manage bibliographic data and related research materials (such as, for example, PDF files). Notable features include web browser integration, online syncing, generation of in-text citations, footnotes, and bibliographies, as well as integration with the word processors Microsoft Word, LibreOffice Writer, and Google Docs. It is produced by the Center for History and New Media at George Mason University.
 Zotero users can generate citations and bibliographies through word processor plugins, or directly in Zotero, using Citation Style Language styles. The house styles of most academic journals are available in Zotero, and the bibliography can be reformatted with a few clicks. Zotero also allows users to create their own customized citation styles.
