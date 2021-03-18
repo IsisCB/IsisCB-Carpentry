@@ -6,7 +6,7 @@
 
 * 1 [Overview](#1-overview)
   * 1.1 What is Zotero?
-* 2 [Getting started](https://docs.google.com/document/d/129xI6Vzolvi7TuFDCHYtkMj7iJMgNJAcpC6T0I6pTiM/edit)
+* 2 [Getting started](#2-getting-started)
   * 2.1 Setting up Zotero
   * 2.2 Zotero web clipper
 * 3 Using Zotero for the IsisCB
