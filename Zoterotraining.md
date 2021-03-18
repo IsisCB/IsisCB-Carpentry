@@ -20,7 +20,7 @@
   * 3.3 [Tagging: the IsisCB Classification Scheme](#33-tagging-the-isiscb-classification-scheme)
     * 3.3.1 Subjects
     * 3.3.2 Categories
-  * 3.4 Keeping folders (well) organized
+  * 3.4 [Keeping folders (well) organized](#34-keeping-folders-well-organized)
     * 3.4.1 Chapter Books
     * 3.4.2 Single Books
     * 3.4.3 Journal Issues
