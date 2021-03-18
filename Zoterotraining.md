@@ -41,5 +41,23 @@ In Zotero, users can generate citations and bibliographies through word processo
 Zotero can import and export citations from or to many formats, including Wikipedia Citation Templates,[7] BibTeX, BibLateX, RefWorks, MODS, COinS, Citation Style Language/JSON, refer/BibIX, RIS, TEI, several flavours of RDF, Evernote, and EndNote.
 
 [^ Up to Table of Contents](#table-of-contents)
+
 ---
 
+## 2 Getting started
+### 2.1 Setting up Zotero
+### 2.2 Zotero web clipper
+
+---
+
+## 3 Using Zotero for the IsisCB
+### 3.1 Collecting citations with Zotero
+### 3.2 Wait. Is that book already there?
+### 3.3 Tagging
+### 3.4 Keeping folders (well) organized
+
+---
+
+## 4. General troubleshooting
+### 4.1 Dear Bibliographer...
+### 4.2 Extra notes for contributing editors
