@@ -45,16 +45,38 @@ Zotero can import and export citations from or to many formats, including Wikipe
 ---
 
 ## 2 Getting started
+
+[^ Up to Table of Contents](#table-of-contents)
+
 ### 2.1 Setting up Zotero
+
+[^ Up to Table of Contents](#table-of-contents)
+
 ### 2.2 Zotero web clipper
+
+[^ Up to Table of Contents](#table-of-contents)
 
 ---
 
 ## 3 Using Zotero for the IsisCB
+
+[^ Up to Table of Contents](#table-of-contents)
+
 ### 3.1 Collecting citations with Zotero
+
+[^ Up to Table of Contents](#table-of-contents)
+
 ### 3.2 Wait. Is that book already there?
+
+[^ Up to Table of Contents](#table-of-contents)
+
 ### 3.3 Tagging
+
+[^ Up to Table of Contents](#table-of-contents)
+
 ### 3.4 Keeping folders (well) organized
+
+[^ Up to Table of Contents](#table-of-contents)
 
 ---
 
