@@ -10,13 +10,13 @@
   * 2.1 [Setting up Zotero](#21-setting-up-zotero)
   * 2.2 [Zotero web clipper](#22-zotero-web-clipper)
 * 3 [Using Zotero for the IsisCB](#3-using-zotero-for-the-isiscb)
-  * 3.1 Collecting citations with Zotero
+  * 3.1 [Collecting citations with Zotero](#31-collecting-citations-with-zotero)
     * 3.1.1 Where is the damn abstract? Searching the web for information: find the best data first
     * 3.1.2 Publisher webpages
     * 3.1.3 Google Books
     * 3.1.4 Booksellers (the Italian case: Casalini Libri, etc.)
     * 3.1.5 Institutional bibliographies (Museo Galileo, etc.)
-  * 3.2 Wait. Is that book already there? The [Context Menu Search Application](https://docs.google.com/document/d/1IQABETTQkOKRyRgiyX92tPYnp8ZUIe5EqjElks1dQbo/edit)
+  * 3.2 [Wait. Is that book already there? The Context Menu Search Application](#32-Wait-Is-that-book-already-there?-The-Context-Menu-Search-Application)
   * 3.3 Tagging: the [IsisCB Classification Scheme](https://docs.google.com/document/d/11Y8HyLSPiblrxx2yyfpx-pGBBljxpjQ4vrCxp38V70U/edit)
     * 3.3.1 Subjects
     * 3.3.2 Categories
@@ -81,5 +81,13 @@ Zotero can import and export citations from or to many formats, including Wikipe
 ---
 
 ## 4. General troubleshooting
+
+[^ Up to Table of Contents](#table-of-contents)
+
 ### 4.1 Dear Bibliographer...
+
+[^ Up to Table of Contents](#table-of-contents)
+
 ### 4.2 Extra notes for contributing editors
+
+[^ Up to Table of Contents](#table-of-contents)
