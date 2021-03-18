@@ -66,7 +66,7 @@ Zotero can import and export citations from or to many formats, including Wikipe
 
 [^ Up to Table of Contents](#table-of-contents)
 
-### 3.2 Wait. Is that book already there?
+### 3.2 The Context Menu Search Application
 
 [^ Up to Table of Contents](#table-of-contents)
 
