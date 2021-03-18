@@ -5,7 +5,7 @@
 ## Table of contents
 
 * 1 [Overview](#1-overview)
-  * 1.1 What is Zotero?
+  * 1.1 [What is Zotero?](#11-what-is-zotero)
 * 2 [Getting started](#2-getting-started)
   * 2.1 [Setting up Zotero](#21-setting-up-zotero)
   * 2.2 [Zotero web clipper](#22-zotero-web-clipper)
@@ -26,7 +26,7 @@
     * 3.4.3 Journal Issues
     * 3.4.4 Book reviews
     * 3.4.5 Thesis (Dissertations)
-* 4 General troubleshooting
+* 4 [General troubleshooting](#4-general-troubleshooting)
   * 4.1 [Dear Bibliographer...](https://docs.google.com/document/d/1obVhg7vGgnO7Q6lFrSKrEd3_4UlvVJ4LGtZP-Q3tN4g/edit)
   * 4.2 [Extra notes for contributing editors](https://docs.google.com/document/d/0B0jCfLwcJlQrdEgzZXpqQ3c0eUxFYldhUHJpVVlvZFhKVjVZ/edit)
 ---
