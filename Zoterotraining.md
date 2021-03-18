@@ -17,7 +17,7 @@
     * 3.1.4 Booksellers (the Italian case: Casalini Libri, etc.)
     * 3.1.5 Institutional bibliographies (Museo Galileo, etc.)
   * 3.2 [The Context Menu Search Application](#32-The-Context-Menu-Search-Application)
-  * 3.3 Tagging: the [IsisCB Classification Scheme](https://docs.google.com/document/d/11Y8HyLSPiblrxx2yyfpx-pGBBljxpjQ4vrCxp38V70U/edit)
+  * 3.3 [Tagging: the IsisCB Classification Scheme](#33-tagging-the-isiscb-classification-scheme)
     * 3.3.1 Subjects
     * 3.3.2 Categories
   * 3.4 Keeping folders (well) organized
@@ -70,7 +70,7 @@ Zotero can import and export citations from or to many formats, including Wikipe
 
 [^ Up to Table of Contents](#table-of-contents)
 
-### 3.3 Tagging
+### 3.3 Tagging: the IsisCB Classification Scheme
 
 [^ Up to Table of Contents](#table-of-contents)
 
