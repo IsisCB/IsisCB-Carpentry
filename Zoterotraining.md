@@ -7,9 +7,9 @@
 * 1 [Overview](#1-overview)
   * 1.1 What is Zotero?
 * 2 [Getting started](#2-getting-started)
-  * 2.1 [Setting up Zotero](#2.1-setting-up-zotero)
-  * 2.2 Zotero web clipper
-* 3 Using Zotero for the IsisCB
+  * 2.1 [Setting up Zotero](#21-setting-up-zotero)
+  * 2.2 [Zotero web clipper](#22-zotero-web-clipper)
+* 3 [Using Zotero for the IsisCB](#3-using-zotero-for-the-isiscb)
   * 3.1 Collecting citations with Zotero
     * 3.1.1 Where is the damn abstract? Searching the web for information: find the best data first
     * 3.1.2 Publisher webpages
