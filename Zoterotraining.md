@@ -21,11 +21,9 @@
     * 3.3.1 Subjects
     * 3.3.2 Categories
   * 3.4 [Keeping folders (well) organized](#34-keeping-folders-well-organized)
-    * 3.4.1 Chapter Books
-    * 3.4.2 Single Books
-    * 3.4.3 Journal Issues
-    * 3.4.4 Book reviews
-    * 3.4.5 Thesis (Dissertations)
+    * 3.4.1 [File Structure](#341-file-structure)
+    * 3.4.2 [Working Folders](#342-working-folders)
+    * 3.4.3 [Ingested Folders](#343-ingested-folders)
 * 4 [General troubleshooting](#4-general-troubleshooting)
   * 4.1 [Dear Bibliographer...](https://docs.google.com/document/d/1obVhg7vGgnO7Q6lFrSKrEd3_4UlvVJ4LGtZP-Q3tN4g/edit)
   * 4.2 [Extra notes for contributing editors](https://docs.google.com/document/d/0B0jCfLwcJlQrdEgzZXpqQ3c0eUxFYldhUHJpVVlvZFhKVjVZ/edit)
@@ -75,6 +73,18 @@ Zotero can import and export citations from or to many formats, including Wikipe
 [^ Up to Table of Contents](#table-of-contents)
 
 ### 3.4 Keeping folders (well) organized
+
+[^ Up to Table of Contents](#table-of-contents)
+
+#### 3.4.1 File Structure
+
+[^ Up to Table of Contents](#table-of-contents)
+
+#### 3.4.2 Working Folders
+
+[^ Up to Table of Contents](#table-of-contents)
+
+#### 3.4.3 Ingested Folders
 
 [^ Up to Table of Contents](#table-of-contents)
 
