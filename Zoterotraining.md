@@ -48,6 +48,8 @@ Zotero can import and export citations from or to many formats, including Wikipe
 
 ### 2.1 Setting up Zotero
 
+You can download Zotero on the [Zotero download page.](https://www.zotero.org/download/) Be sure to also install a Zotero Connector for your browser.
+
 [^ Up to Table of Contents](#table-of-contents)
 
 ### 2.2 Zotero web clipper
