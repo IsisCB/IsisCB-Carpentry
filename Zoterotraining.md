@@ -82,6 +82,12 @@ A new IsisCB library shall be created each calendar year in the following format
 [^ Up to Table of Contents](#table-of-contents)
 
 #### 3.4.2 Working Folders
+The bibliographer and the and bibliographer’s assistants shall have designated folders to organize work in progress. These folders shall be named in the following format: 000-Weldon Working (i.e., three zeros, a dash, the individual’s last name, followed by a space and ‘Working’). The contents and organization structure of these folders are left to each individual’s preferences. However, general rules and suggestions apply:
+
+1. The IsisCB staff has found that for their purposes, a system that has a folder for books and separate folders for journals/issues works very well. It might also prove helpful to include a folder for works that are under consideration for inclusion.
+2. When collecting journal issues/articles, create a folder for each journal, within which include subfolders for each issue of each volume. Further, ensure that the items are added only to the issue subfolder, not to the main journal folder -- please eliminate all duplicate entries if you find them residing in the main journal folder.
+3. Books are to be added within dated, named folders (named for the assistant compiling the books within the folder) denoting that all titles within the folder are Single Books. The naming convention of these folders is not absolute, but they should convey the compiler of the folder, the status of the books as Single Books, and a date. For example, “Weldon Single Books 2016.05.23”. 
+4. If a books contains chapters (i.e., the book includes chapter which are authored by multiple individuals) create a separate folder for that book. The name of the folder should be editor surname and publication date (i.e., Smith 2014).
 
 [^ Up to Table of Contents](#table-of-contents)
 
