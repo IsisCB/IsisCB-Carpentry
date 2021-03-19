@@ -97,7 +97,7 @@ The ingested folder will include three folders: CHAPTER BOOKS, SINGLE BOOKS, and
 
 1. CHAPTER BOOKS: This folder will contain the named and dated folders for Chapter Books, thus defined as book which include chapters which are authored by multiple individuals. 
 2. SINGLE BOOKS: This folder will contain named and dated folders for Single Books, thus defined as _all remainder books_ which are not Chapter Books.
-3. JOURNAL ISSUES: This folder will contain the ingested folder(s), one for each journal, within which include subfolders for each issue of each volume. Note: _Do only include one journal folder for each journal title in this folder. If you ingest additional issues for a journal title, only move the issue subfolder into the Ingested Folder. _
+3. JOURNAL ISSUES: This folder will contain the ingested folder(s), one for each journal, within which include subfolders for each issue of each volume. Note: _Do only include one journal folder for each journal title in this folder. If you ingest additional issues for a journal title, only move the issue subfolder into the Ingested Folder.
 
 [^ Up to Table of Contents](#table-of-contents)
 
