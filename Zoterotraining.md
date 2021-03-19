@@ -77,6 +77,7 @@ Zotero can import and export citations from or to many formats, including Wikipe
 [^ Up to Table of Contents](#table-of-contents)
 
 #### 3.4.1 File Structure
+A new IsisCB library shall be created each calendar year in the following format, with the following year updated every calendar year: IsisCB 2017. Further, the library shall include (1) <span style="text-decoration:underline;">working folders for each individual contributing towards the yearly bibliography</span> and (2) an <span style="text-decoration:underline;">ingested folder</span>, a folder included to denote work that has already been completed each year.
 
 [^ Up to Table of Contents](#table-of-contents)
 
