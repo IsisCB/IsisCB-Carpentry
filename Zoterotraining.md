@@ -11,19 +11,16 @@
   * 2.2 [Zotero web clipper](#22-zotero-web-clipper)
 * 3 [Using Zotero for the IsisCB](#3-using-zotero-for-the-isiscb)
   * 3.1 [Collecting citations with Zotero](#31-collecting-citations-with-zotero)
-    * 3.1.1 Where is the damn abstract? Searching the web for information: find the best data first
-    * 3.1.2 Publisher webpages
-    * 3.1.3 Google Books
-    * 3.1.4 Booksellers (the Italian case: Casalini Libri, etc.)
-    * 3.1.5 Institutional bibliographies (Museo Galileo, etc.)
-  * 3.2 [The Context Menu Search Application](#32-The-Context-Menu-Search-Application)
-  * 3.3 [Tagging: the IsisCB Classification Scheme](#33-tagging-the-isiscb-classification-scheme)
+    * 3.1.1 Journal Articles
+    * 3.1.2 Books (Single and Chapter)
+    * 3.1.3 Thesis (Dissertations)
+  * 3.2 [Tagging: the IsisCB Classification Scheme](#32-tagging-the-isiscb-classification-scheme)
     * 3.3.1 Subjects
     * 3.3.2 Categories
-  * 3.4 [Keeping folders (well) organized](#34-keeping-folders-well-organized)
-    * 3.4.1 [File Structure](#341-file-structure)
-    * 3.4.2 [Working Folders](#342-working-folders)
-    * 3.4.3 [Ingested Folders](#343-ingested-folders)
+  * 3.3 [Keeping folders (well) organized](#33-keeping-folders-well-organized)
+    * 3.3.1 [File Structure](#331-file-structure)
+    * 3.3.2 [Working Folders](#332-working-folders)
+    * 3.3.3 [Ingested Folders](#333-ingested-folders)
 * 4 [General troubleshooting](#4-general-troubleshooting)
   * 4.1 [Dear Bibliographer...](https://docs.google.com/document/d/1obVhg7vGgnO7Q6lFrSKrEd3_4UlvVJ4LGtZP-Q3tN4g/edit)
   * 4.2 [Extra notes for contributing editors](https://docs.google.com/document/d/0B0jCfLwcJlQrdEgzZXpqQ3c0eUxFYldhUHJpVVlvZFhKVjVZ/edit)
@@ -71,24 +68,20 @@ The collection process is divided into two general steps:
 
 [^ Up to Table of Contents](#table-of-contents)
 
-### 3.2 The Context Menu Search Application
+### 3.2 Tagging: the IsisCB Classification Scheme
 
 [^ Up to Table of Contents](#table-of-contents)
 
-### 3.3 Tagging: the IsisCB Classification Scheme
+### 3.3 Keeping folders (well) organized
 
 [^ Up to Table of Contents](#table-of-contents)
 
-### 3.4 Keeping folders (well) organized
-
-[^ Up to Table of Contents](#table-of-contents)
-
-#### 3.4.1 File Structure
+#### 3.3.1 File Structure
 A new IsisCB library shall be created each calendar year in the following format, with the following year updated every calendar year: IsisCB 2017. Further, the library shall include (1) <span style="text-decoration:underline;">working folders for each individual contributing towards the yearly bibliography</span> and (2) an <span style="text-decoration:underline;">ingested folder</span>, a folder included to denote work that has already been completed each year.
 
 [^ Up to Table of Contents](#table-of-contents)
 
-#### 3.4.2 Working Folders
+#### 3.3.2 Working Folders
 The bibliographer and the and bibliographer’s assistants shall have designated folders to organize work in progress. These folders shall be named in the following format: 000-Weldon Working (i.e., three zeros, a dash, the individual’s last name, followed by a space and ‘Working’). The contents and organization structure of these folders are left to each individual’s preferences. However, general rules and suggestions apply:
 
 1. The IsisCB staff has found that for their purposes, a system that has a folder for books and separate folders for journals/issues works very well. It might also prove helpful to include a folder for works that are under consideration for inclusion.
@@ -98,7 +91,7 @@ The bibliographer and the and bibliographer’s assistants shall have designated
 
 [^ Up to Table of Contents](#table-of-contents)
 
-#### 3.4.3 Ingested Folders
+#### 3.3.3 Ingested Folders
 
 The ingested folder will include three folders: CHAPTER BOOKS, SINGLE BOOKS, and JOURNAL ISSUES. After exporting items from Zotero and importing them into the IsisCB, move the folder(s) from the appropriate Working Folder into the appropriate folder within the Ingested folder (i.e., CHAPTER BOOKS, SINGLE BOOKS, or JOURNAL ISSUES). 
 
