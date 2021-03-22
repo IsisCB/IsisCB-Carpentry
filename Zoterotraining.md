@@ -60,6 +60,11 @@ You can download Zotero on the [Zotero download page.](https://www.zotero.org/do
 
 ## 3 Using Zotero for the IsisCB
 
+The collection process is divided into two general steps:
+
+- Collecting citations
+- Tagging and classifying citations
+
 [^ Up to Table of Contents](#table-of-contents)
 
 ### 3.1 Collecting citations with Zotero
