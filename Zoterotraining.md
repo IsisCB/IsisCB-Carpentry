@@ -11,9 +11,9 @@
   * 2.2 [Zotero web clipper](#22-zotero-web-clipper)
 * 3 [Using Zotero for the IsisCB](#3-using-zotero-for-the-isiscb)
   * 3.1 [Collecting citations with Zotero](#31-collecting-citations-with-zotero)
-    * 3.1.1 Journal Articles
-    * 3.1.2 Books (Single and Chapter)
-    * 3.1.3 Thesis (Dissertations)
+    * 3.1.1 [Journal Articles](#311-journal-articles)
+    * 3.1.2 [Books (Single and Chapter)](#312-books-single-and-chapter)
+    * 3.1.3 [Thesis (Dissertations)](#313-thesis-dissertations)
   * 3.2 [Tagging: the IsisCB Classification Scheme](#32-tagging-the-isiscb-classification-scheme)
     * 3.3.1 Subjects
     * 3.3.2 Categories
@@ -67,6 +67,16 @@ The collection process is divided into two general steps:
 ### 3.1 Collecting citations with Zotero
 
 [^ Up to Table of Contents](#table-of-contents)
+
+#### 3.1.1 Journal Articles
+
+[^ Up to Table of Contents](#table-of-contents)
+
+#### 3.1.2 Books (Single and Chapter)
+
+[^ Up to Table of Contents](#table-of-contents)
+
+#### 3.1.3 Thesis (Dissertations)
 
 ### 3.2 Tagging: the IsisCB Classification Scheme
 
