@@ -14,6 +14,7 @@
     * 3.1.1 [Journal Articles](#311-journal-articles)
     * 3.1.2 [Books (Single and Chapter)](#312-books-single-and-chapter)
     * 3.1.3 [Thesis (Dissertations)](#313-thesis-dissertations)
+    * 3.1.4 [Guidelines for collecting non-English citations](#314-guidelines-for-collecting-non-english-citations)
   * 3.2 [Tagging: the IsisCB Classification Scheme](#32-tagging-the-isiscb-classification-scheme)
     * 3.3.1 Subjects
     * 3.3.2 Categories
@@ -102,6 +103,12 @@ The collection process is divided into two general steps:
 [^ Up to Table of Contents](#table-of-contents)
 
 #### 3.1.3 Thesis (Dissertations)
+
+[^ Up to Table of Contents](#table-of-contents)
+
+#### 3.1.4 Guidelines for collecting non-English citations
+
+[^ Up to Table of Contents](#table-of-contents)
 
 ### 3.2 Tagging: the IsisCB Classification Scheme
 
