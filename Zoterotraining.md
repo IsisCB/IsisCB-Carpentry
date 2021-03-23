@@ -73,8 +73,8 @@ The collection process is divided into two general steps:
 
 1. Check the [JournalsRank1and2.xlsx](https://docs.google.com/spreadsheets/d/1v04WA7uml6JRtTCLOdDu0C55JaBJ5modPxqYRK2JM3M/edit#gid=881820069) spreadsheet to ensure that issue has not already been claimed by another assistant. 
 2. If the issue has not yet been collected, claim the issue on the [JournalsRank1and2.xlsx](https://docs.google.com/spreadsheets/d/1v04WA7uml6JRtTCLOdDu0C55JaBJ5modPxqYRK2JM3M/edit#gid=881820069) spreadsheet and either use the Zotero button to automatically harvest article data for an entire issue from websites/hard copies or manually input the information for all articles in an issue in the appropriate fields for each article in individual and separate Zotero records. 
-    1. _If the journal article is a book review_, check Zotero and IsisCB Explore to see if the book is already included in the database. _Note: when searching for books on the non-public face of the IsisCB, at the time of this writing, one cannot include punctuation marks in the search fields, else the search does not display results correctly (i.e., no results will display)._
-        1. _If no record is found_, then harvest the book information into a properly formatted folder (for more information, see [Zotero File Structure](http://wiki.isiscb.org/Zotero_file_structure)) in the current “IsisCB” Library and import said book record before ingesting the journal article book review. For more information, consult the section on this Wiki page concerning Books.
+ - If the journal article is a book review_, check Zotero and IsisCB Explore to see if the book is already included in the database. _Note: when searching for books on the non-public face of the IsisCB, at the time of this writing, one cannot include punctuation marks in the search fields, else the search does not display results correctly (i.e., no results will display)._
+  - _If no record is found_, then harvest the book information into a properly formatted folder (for more information, see [Zotero File Structure](http://wiki.isiscb.org/Zotero_file_structure)) in the current “IsisCB” Library and import said book record before ingesting the journal article book review. For more information, consult the section on this Wiki page concerning Books.
         2. _If a record is found in Zotero or IsisCB Explore_, create a second author field in the record in Zotero and indicate this field as a “Reviewed Author” field. Next, enter the ISBN or CBB number from IsisCB into this field the Zotero record before ingesting it.
     2. _If the journal article is not a book review_, simply ingest the citation into Zotero. No further action is needed until the tagging and classifying step as described below.
 3. Things to consider:
@@ -108,17 +108,17 @@ The collection process is divided into two general steps:
 
 #### 3.1.4 Guidelines for collecting non-English citations
 
-1. Titles:
+1. TITLES:
  - Keep the title in the original language (this includes languages with symbols because we are now using Unicode). Put the translation in {alt. Title: ...} in the extra field.
  - If the publication provides an English translation of the title, you may add the translated title as {atl. title: Translated Title} in the “Extras Field”
-    3. DO NOT use Google Translate for the entered title. You may use it in notes for yourself but not in any space that will be published. There is one exception, if the entered title is in a language using non-Latin script and outside of the European language set, then provide the Google translated title in {alt. title: Translated Title}
-2. Abstracts:
-    4. If the article provides a translated abstract, you may put the English translation in the “abstract” field (if it is provided by the source). If not, keep the abstract in the original language.
-    5. DO NOT use Google Translate for the abstract. You may use it in notes for yourself but not in any space that will be published. There is one exception, if the entered title is in a language using non-Latin script and outside of the European language set, then provide the Google translated title in {alt. title: Translated Title}
-    6. Enter the Google translated abstract in the extra field using the same rules that apply to translated titles, as noted above.
-3. Other fields:
-    7. As for other fields, like author, publisher, place the field need to be transliterated into latin text so that it can be searched and used in Explore. (VIAF and ORCID will provide the proper transliterated author name.)
-    8. Authorities should be transliterated into Latin so that they searchable.
+ - DO NOT use Google Translate for the entered title. You may use it in notes for yourself but not in any space that will be published. There is one exception, if the entered title is in a language using non-Latin script and outside of the European language set, then provide the Google translated title in {alt. title: Translated Title}
+2. ABSTRACTS:
+ - If the article provides a translated abstract, you may put the English translation in the “abstract” field (if it is provided by the source). If not, keep the abstract in the original language.
+ - DO NOT use Google Translate for the abstract. You may use it in notes for yourself but not in any space that will be published. There is one exception, if the entered title is in a language using non-Latin script and outside of the European language set, then provide the Google translated title in {alt. title: Translated Title}
+ - Enter the Google translated abstract in the extra field using the same rules that apply to translated titles, as noted above.
+3. OTHER FIELDS:
+ - As for other fields, like author, publisher, place the field need to be transliterated into latin text so that it can be searched and used in Explore. (VIAF and ORCID will provide the proper transliterated author name.)
+ - Authorities should be transliterated into Latin so that they are searchable.
 
 [^ Up to Table of Contents](#table-of-contents)
 
