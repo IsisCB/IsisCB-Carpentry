@@ -108,6 +108,18 @@ The collection process is divided into two general steps:
 
 #### 3.1.4 Guidelines for collecting non-English citations
 
+1. Titles:
+    1. Keep the title in the original language (this includes languages with symbols because we are now using Unicode). Put the translation in {alt. Title: ...} in the extra field.
+    2. If the publication provides an English translation of the title, you may add the translated title as {atl. title: Translated Title} in the “Extras Field”
+    3. DO NOT use Google Translate for the entered title. You may use it in notes for yourself but not in any space that will be published. There is one exception, if the entered title is in a language using non-Latin script and outside of the European language set, then provide the Google translated title in {alt. title: Translated Title}
+2. Abstracts:
+    4. If the article provides a translated abstract, you may put the English translation in the “abstract” field (if it is provided by the source). If not, keep the abstract in the original language.
+    5. DO NOT use Google Translate for the abstract. You may use it in notes for yourself but not in any space that will be published. There is one exception, if the entered title is in a language using non-Latin script and outside of the European language set, then provide the Google translated title in {alt. title: Translated Title}
+    6. Enter the Google translated abstract in the extra field using the same rules that apply to translated titles, as noted above.
+3. Other fields:
+    7. As for other fields, like author, publisher, place the field need to be transliterated into latin text so that it can be searched and used in Explore. (VIAF and ORCID will provide the proper transliterated author name.)
+    8. Authorities should be transliterated into Latin so that they searchable.
+
 [^ Up to Table of Contents](#table-of-contents)
 
 ### 3.2 Tagging: the IsisCB Classification Scheme
