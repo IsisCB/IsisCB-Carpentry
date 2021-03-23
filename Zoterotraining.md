@@ -75,14 +75,14 @@ The collection process is divided into two general steps:
 2. If the issue has not yet been collected, claim the issue on the [JournalsRank1and2.xlsx](https://docs.google.com/spreadsheets/d/1v04WA7uml6JRtTCLOdDu0C55JaBJ5modPxqYRK2JM3M/edit#gid=881820069) spreadsheet and either use the Zotero button to automatically harvest article data for an entire issue from websites/hard copies or manually input the information for all articles in an issue in the appropriate fields for each article in individual and separate Zotero records. 
  - _If the journal article is a book review_, check Zotero and IsisCB Explore to see if the book is already included in the database. _Note: when searching for books on the non-public face of the IsisCB, at the time of this writing, one cannot include punctuation marks in the search fields, else the search does not display results correctly (i.e., no results will display)._
    - _If no record is found_, then harvest the book information into a properly formatted folder (for more information, see [Zotero File Structure](http://wiki.isiscb.org/Zotero_file_structure)) in the current “IsisCB” Library and import said book record before ingesting the journal article book review. For more information, consult the section on this Wiki page concerning Books.
-        2. _If a record is found in Zotero or IsisCB Explore_, create a second author field in the record in Zotero and indicate this field as a “Reviewed Author” field. Next, enter the ISBN or CBB number from IsisCB into this field the Zotero record before ingesting it.
-    2. _If the journal article is not a book review_, simply ingest the citation into Zotero. No further action is needed until the tagging and classifying step as described below.
+   - _If a record is found in Zotero or IsisCB Explore_, create a second author field in the record in Zotero and indicate this field as a “Reviewed Author” field. Next, enter the ISBN or CBB number from IsisCB into this field the Zotero record before ingesting it.
+ - _If the journal article is not a book review_, simply ingest the citation into Zotero. No further action is needed until the tagging and classifying step as described below.
 3. Things to consider:
-    3. Relate the first article in the series or the introductory article or dossier to all of the following article in the series or special issue that correspond with the subject.
-    4. If the journals are in a series or a focus section, make sure that the introductory or lead article is “related” (Zotero’s term for connecting items) to it. Alternatively, these relationships can be created after the ingestion process in the IsisCB directly.
-    5. If an article is a review of thesis, format the Reviewed Author as “review of thesis: title of thesis” (Since there is no ISBN)
-    6. Generally, the required fields for journals are: Item type, Title, Author(s), Abstract, Publication, Volume Issue, Pages or Word Count, Date, Journal Abbreviation, Language, DOI, ISSN. If you have questions about specific fields for specific items, discuss the items with the bibliographer.
-    7. If there are no page numbers for articles or reviews, put {Approx ### words}.
+ - Relate the first article in the series or the introductory article or dossier to all of the following article in the series or special issue that correspond with the subject.
+ - If the journals are in a series or a focus section, make sure that the introductory or lead article is “related” (Zotero’s term for connecting items) to it. Alternatively, these relationships can be created after the ingestion process in the IsisCB directly.
+ - If an article is a review of thesis, format the Reviewed Author as “review of thesis: title of thesis” (Since there is no ISBN)
+ - Generally, the required fields for journals are: Item type, Title, Author(s), Abstract, Publication, Volume Issue, Pages or Word Count, Date, Journal Abbreviation, Language, DOI, ISSN. If you have questions about specific fields for specific items, discuss the items with the bibliographer.
+ - If there are no page numbers for articles or reviews, put {Approx ### words}.
 
 [^ Up to Table of Contents](#table-of-contents)
 
