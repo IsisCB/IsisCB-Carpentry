@@ -98,7 +98,7 @@ The collection process is divided into two general steps:
 - _If the book is less relevant to the scope of the IsisCB (consult the bibliographer if unsure)_, harvest the book information as noted above, but do not add records for the chapters of the book. Instead, copy or manually enter the table of contents of said book into the abstract field of the book’s Zotero record. 
 3. If the book is a Single Book, so considered as any book which is not a chapter book as defined, simply ingest the citation into Zotero. No further action is needed until the tagging and classifying step as described below.
 4. Things to consider:
-Generally, the required fields for books are: Item Type, Title, Author/Editor, Abstract, Series, Place, Publisher, Date Pages, Language, ISBN, Short Title. If you have questions about specific fields for specific items, discuss the items with the bibliographer.
+- Generally, the required fields for books are: Item Type, Title, Author/Editor, Abstract, Series, Place, Publisher, Date Pages, Language, ISBN, Short Title. If you have questions about specific fields for specific items, discuss the items with the bibliographer.
 
 [^ Up to Table of Contents](#table-of-contents)
 
