@@ -30,7 +30,7 @@
 ## 1 Overview
 ### 1.1 What is Zotero?
 
-[Zotero](https://www.zotero.org/) is a project of the Corporation for Digital Scholarship, a nonprofit organization dedicated to the development of software and services for researchers and cultural heritage institutions. It is a free, open-source reference management software to manage bibliographic data and related research materials (such as, for example, PDF files). Notable features include web browser integration, online syncing, generation of in-text citations, footnotes, and bibliographies, as well as integration with the word processors Microsoft Word, LibreOffice Writer, and Google Docs.
+[Zotero](https://www.zotero.org/) is a free, open-source reference management software to manage bibliographic data and related research materials (such as, for example, PDF files). Notable features include web browser integration, online syncing, generation of in-text citations, footnotes, and bibliographies, as well as integration with the word processors Microsoft Word, LibreOffice Writer, and Google Docs.
 
 In Zotero, users can generate citations and bibliographies through word processor plugins (or directly in Zotero) using Citation Style Language styles. The house styles of most academic journals are available in Zotero, and the bibliography can be reformatted with a few clicks. Zotero also allows users to create their own customized citation styles.
 
@@ -66,6 +66,25 @@ The collection process is divided into two general steps:
 [^ Up to Table of Contents](#table-of-contents)
 
 ### 3.1 Collecting citations with Zotero
+
+Tips for harvesting items
+
+- The best place to get abstracts are from the publisher. Google books, and Amazon are also good places to get good abstracts.
+- Don’t ever trust the information in WorldCat; always verify with a second source if possible; beware, especially, of the title and authors.
+- Don’t try to pull too many things from a website at once or else the publisher may lock you out for a time. If this happens, attempt to access the website after a short interlude. 
+
+All records
+
+- Check title: for capitalization errors, random information harvested by Zotero, proper italics (italics are marked in Zotero by &lt; i > xxx &lt; / i > or &lt;em> xxx &lt;/em>), check accent marks, check title for author misplacement
+- Check author name order, capitalization.
+- Make sure that editors or other contributors are not marked as authors.
+- If possible, make sure to collect a [DOI](http://wiki.isiscb.org/index.php?title=DOI&action=edit&redlink=1), publisher’s URL, [ISBN](http://wiki.isiscb.org/index.php?title=ISBN&action=edit&redlink=1), [ISSN](http://wiki.isiscb.org/index.php?title=ISSN&action=edit&redlink=1) for the object.
+  - DOI: [https://www.doi.org/](https://www.doi.org/)
+  - URL: Sometimes we put URL when there is DOI, because some publishers do not have them published. Check to make sure the URL is not specific to your library, so that user without access can find the correct URL.
+  - ISBN: These are not always provided by WorldCat, sometimes you will need to go look at Amazon, AbeBooks, or the publisher’s website.
+  - ISSN: This is the journal’s identification number. This is almost always found on the journal’s publisher site (i.e. Brill, SagePub, Wiley, Cambridge, Oxford, etc.)
+- Make sure the target folder is selected or open in Zotero before hitting the Zotero button, otherwise the information will go to the general directory.
+- Check to ensure a language is entered in the language field. Frequently the language field is not harvested.
 
 [^ Up to Table of Contents](#table-of-contents)
 
