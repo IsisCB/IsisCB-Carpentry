@@ -182,6 +182,8 @@ The ingested folder will include three folders: CHAPTER BOOKS, SINGLE BOOKS, and
 
 ### 4.1 Dear Bibliographer...
 
+For further clarifications or additional information it is possible to contact directly the Bibliographerm (follow this Google [docs link](https://docs.google.com/document/d/1obVhg7vGgnO7Q6lFrSKrEd3_4UlvVJ4LGtZP-Q3tN4g/edit?ts=59d4f941))
+
 [^ Up to Table of Contents](#table-of-contents)
 
 ### 4.2 Extra notes for contributing editors
