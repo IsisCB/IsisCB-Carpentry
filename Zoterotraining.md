@@ -127,17 +127,17 @@ All records
 
 #### 3.1.4 Guidelines for collecting non-English citations
 
-1. TITLES:
- - Keep the title in the original language (this includes languages with symbols because we are now using Unicode). Put the translation in {alt. Title: ...} in the extra field.
- - If the publication provides an English translation of the title, you may add the translated title as {atl. title: Translated Title} in the “Extras Field”
- - DO NOT use Google Translate for the entered title. You may use it in notes for yourself but not in any space that will be published. There is one exception, if the entered title is in a language using non-Latin script and outside of the European language set, then provide the Google translated title in {alt. title: Translated Title}
-2. ABSTRACTS:
- - If the article provides a translated abstract, you may put the English translation in the “abstract” field (if it is provided by the source). If not, keep the abstract in the original language.
- - DO NOT use Google Translate for the abstract. You may use it in notes for yourself but not in any space that will be published. There is one exception, if the entered title is in a language using non-Latin script and outside of the European language set, then provide the Google translated title in {alt. title: Translated Title}
- - Enter the Google translated abstract in the extra field using the same rules that apply to translated titles, as noted above.
+- TITLES:
+  - Keep the title in the original language (this includes languages with symbols because we are now using Unicode). Put the translation in {alt. Title: ...} in the extra field.
+  - If the publication provides an English translation of the title, you may add the translated title as {atl. title: Translated Title} in the “Extras Field”
+  - DO NOT use Google Translate for the entered title. You may use it in notes for yourself but not in any space that will be published. There is one exception, if the entered title is in a language using non-Latin script and outside of the European language set, then provide the Google translated title in {alt. title: Translated Title}
+- ABSTRACTS:
+  - If the article provides a translated abstract, you may put the English translation in the “abstract” field (if it is provided by the source). If not, keep the abstract in the original language.
+  - You can use Google Translate for the abstract. In any case, always make sure to review the translated text, in order to amend any incomprehensible passages. If the entered title is in a language using non-Latin script and outside of the European language set, then provide the Google translated title in {alt. title: Translated Title}
+  - Enter the Google translated abstract in the extra field using the same rules that apply to translated titles, as noted above.
 3. OTHER FIELDS:
- - As for other fields, like author, publisher, place the field need to be transliterated into latin text so that it can be searched and used in Explore. (VIAF and ORCID will provide the proper transliterated author name.)
- - Authorities should be transliterated into Latin so that they are searchable.
+  - As for other fields, like author, publisher, place the field need to be transliterated into latin text so that it can be searched and used in Explore. (VIAF and ORCID will provide the proper transliterated author name.)
+  - Authorities should be transliterated into Latin so that they are searchable.
 
 [^ Up to Table of Contents](#table-of-contents)
 
@@ -157,10 +157,10 @@ A new IsisCB library shall be created each calendar year in the following format
 #### 3.3.2 Working Folders
 The bibliographer and the and bibliographer’s assistants shall have designated folders to organize work in progress. These folders shall be named in the following format: 000-Weldon Working (i.e., three zeros, a dash, the individual’s last name, followed by a space and ‘Working’). The contents and organization structure of these folders are left to each individual’s preferences. However, general rules and suggestions apply:
 
-1. The IsisCB staff has found that for their purposes, a system that has a folder for books and separate folders for journals/issues works very well. It might also prove helpful to include a folder for works that are under consideration for inclusion.
-2. When collecting journal issues/articles, create a folder for each journal, within which include subfolders for each issue of each volume. Further, ensure that the items are added only to the issue subfolder, not to the main journal folder -- please eliminate all duplicate entries if you find them residing in the main journal folder.
-3. Books are to be added within dated, named folders (named for the assistant compiling the books within the folder) denoting that all titles within the folder are Single Books. The naming convention of these folders is not absolute, but they should convey the compiler of the folder, the status of the books as Single Books, and a date. For example, “Weldon Single Books 2016.05.23”. 
-4. If a books contains chapters (i.e., the book includes chapter which are authored by multiple individuals) create a separate folder for that book. The name of the folder should be editor surname and publication date (i.e., Smith 2014).
+- The IsisCB staff has found that for their purposes, a system that has a folder for books and separate folders for journals/issues works very well. It might also prove helpful to include a folder for works that are under consideration for inclusion.
+- When collecting journal issues/articles, create a folder for each journal, within which include subfolders for each issue of each volume. Further, ensure that the items are added only to the issue subfolder, not to the main journal folder -- please eliminate all duplicate entries if you find them residing in the main journal folder.
+- Books are to be added within dated, named folders (named for the assistant compiling the books within the folder) denoting that all titles within the folder are Single Books. The naming convention of these folders is not absolute, but they should convey the compiler of the folder, the status of the books as Single Books, and a date. For example, “Weldon Single Books 2016.05.23”. 
+- If a books contains chapters (i.e., the book includes chapter which are authored by multiple individuals) create a separate folder for that book. The name of the folder should be editor surname and publication date (i.e., Smith 2014).
 
 [^ Up to Table of Contents](#table-of-contents)
 
@@ -168,9 +168,9 @@ The bibliographer and the and bibliographer’s assistants shall have designated
 
 The ingested folder will include three folders: CHAPTER BOOKS, SINGLE BOOKS, and JOURNAL ISSUES. After exporting items from Zotero and importing them into the IsisCB, move the folder(s) from the appropriate Working Folder into the appropriate folder within the Ingested folder (i.e., CHAPTER BOOKS, SINGLE BOOKS, or JOURNAL ISSUES). 
 
-1. CHAPTER BOOKS: This folder will contain the named and dated folders for Chapter Books, thus defined as book which include chapters which are authored by multiple individuals. 
-2. SINGLE BOOKS: This folder will contain named and dated folders for Single Books, thus defined as _all remainder books_ which are not Chapter Books.
-3. JOURNAL ISSUES: This folder will contain the ingested folder(s), one for each journal, within which include subfolders for each issue of each volume. Note: _Do only include one journal folder for each journal title in this folder. If you ingest additional issues for a journal title, only move the issue subfolder into the Ingested Folder.
+- CHAPTER BOOKS: This folder will contain the named and dated folders for Chapter Books, thus defined as book which include chapters which are authored by multiple individuals. 
+- SINGLE BOOKS: This folder will contain named and dated folders for Single Books, thus defined as _all remainder books_ which are not Chapter Books.
+- JOURNAL ISSUES: This folder will contain the ingested folder(s), one for each journal, within which include subfolders for each issue of each volume. Note: _Do only include one journal folder for each journal title in this folder. If you ingest additional issues for a journal title, only move the issue subfolder into the Ingested Folder.
 
 [^ Up to Table of Contents](#table-of-contents)
 
