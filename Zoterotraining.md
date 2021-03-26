@@ -23,7 +23,7 @@
     * 3.3.2 [Working Folders](#332-working-folders)
     * 3.3.3 [Ingested Folders](#333-ingested-folders)
 * 4 [General troubleshooting](#4-general-troubleshooting)
-  * 4.1 [Dear Bibliographer...](https://docs.google.com/document/d/1obVhg7vGgnO7Q6lFrSKrEd3_4UlvVJ4LGtZP-Q3tN4g/edit)
+  * 4.1 [Dear Bibliographer...](#41-dear-bibliographer...)
   * 4.2 [Extra notes for contributing editors](https://docs.google.com/document/d/0B0jCfLwcJlQrdEgzZXpqQ3c0eUxFYldhUHJpVVlvZFhKVjVZ/edit)
 ---
 
