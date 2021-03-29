@@ -146,6 +146,9 @@ All records
 [^ Up to Table of Contents](#table-of-contents)
 
 #### 3.2.1 Categories (Classifying)
+Use categories from the [IsisCB Category List](https://docs.google.com/spreadsheets/d/1wuHcy8FHlMAky6peGmZf7OSin5PlKWt1LgDI8QZVs2o/edit?usp=sharing) to denote classifications. Tags should look like, as an example, **=360-150=**, which in this case denotes 19th century medicine. These tags are formed by:
+- Noting either a cultural influence or chronological classification as the number preceding the hyphen. _Only one number can be used_.
+- Noting a single classification following the hyphen. _Only one number can be used_.	
 
 [^ Up to Table of Contents](#table-of-contents)
 
