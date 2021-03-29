@@ -153,6 +153,15 @@ Use categories from the [IsisCB Category List](https://docs.google.com/spreadshe
 [^ Up to Table of Contents](#table-of-contents)
 
 #### 3.2.2 Subjects (Tagging)
+- Entering existing subject tags:
+Tags should auto populate once you begin to enter them, but only if they begin in the exact manner in which they are typed. For example, “Darwin, Charles” would only populate if one begins typing “Darwin” not “Charles.” Further, tags must be entered precisely as they are listed in the IsisCB. 
+- Entering new subject tags:
+  - If we do not have the tag, add it in a subject field. The new tag will be automatically created during the ingestion process.
+  - If the new subject tag is a name: 
+    - Put the [VIAF](http://wiki.isiscb.org/VIAF) number in or [ORCID](http://wiki.isiscb.org/index.php?title=ORCID&action=edit&redlink=1) after the subject tag in brackets. For example, {VIAF: 123456789} or {ORCID: 1234-3456-3456-1234}.
+    - Enter the new name
+    - Personal names in subject tags should be Last, First Middle
+  - If the source of the information for the new subject tag originates from the text of the book/article but nowhere else, enter {Source} after the subject tag in the subject tag field.
 
 [^ Up to Table of Contents](#table-of-contents)
 
