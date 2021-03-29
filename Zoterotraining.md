@@ -135,9 +135,9 @@ All records
   - If the article provides a translated abstract, you may put the English translation in the “abstract” field (if it is provided by the source). If not, keep the abstract in the original language.
   - You can use Google Translate for the abstract. In any case, always make sure to review the translated text, in order to amend any incomprehensible passages. If the entered title is in a language using non-Latin script and outside of the European language set, then provide the Google translated title in {alt. title: Translated Title}
   - Enter the Google translated abstract in the extra field using the same rules that apply to translated titles, as noted above.
-3. OTHER FIELDS:
-  - As for other fields, like author, publisher, place the field need to be transliterated into latin text so that it can be searched and used in Explore. (VIAF and ORCID will provide the proper transliterated author name.)
-  - Authorities should be transliterated into Latin so that they are searchable.
+- OTHER FIELDS:
+   - As for other fields, like author, publisher, place the field need to be transliterated into latin text so that it can be searched and used in Explore. (VIAF and ORCID will provide the proper transliterated author name.)
+   - Authorities should be transliterated into Latin so that they are searchable.
 
 [^ Up to Table of Contents](#table-of-contents)
 
