@@ -15,9 +15,9 @@
     * 3.1.2 [Books (Single and Chapter)](#312-books-single-and-chapter)
     * 3.1.3 [Thesis (Dissertations)](#313-thesis-dissertations)
     * 3.1.4 [Guidelines for collecting non-English citations](#314-guidelines-for-collecting-non-english-citations)
-  * 3.2 [Tagging: the IsisCB Classification Scheme](#32-tagging-the-isiscb-classification-scheme)
-    * 3.3.1 Subjects
-    * 3.3.2 Categories
+  * 3.2 [Tagging and Classifying Citations: the IsisCB Classification Scheme](#32-tagging-and-classifying-citations-the-isiscb-classification-scheme)
+    * 3.3.1 [Categories (Classifying)](331-categories-classifying)
+    * 3.3.2 [Subjects (Tagging)](332-subjects-tagging)
   * 3.3 [Keeping folders (well) organized](#33-keeping-folders-well-organized)
     * 3.3.1 [File Structure](#331-file-structure)
     * 3.3.2 [Working Folders](#332-working-folders)
@@ -141,7 +141,15 @@ All records
 
 [^ Up to Table of Contents](#table-of-contents)
 
-### 3.2 Tagging: the IsisCB Classification Scheme
+### 3.2 Tagging and Classifying Citations: the IsisCB Classification Scheme
+
+[^ Up to Table of Contents](#table-of-contents)
+
+#### 3.2.1 Categories (Classifying)
+
+[^ Up to Table of Contents](#table-of-contents)
+
+#### 3.2.2 Subjects (Tagging)
 
 [^ Up to Table of Contents](#table-of-contents)
 
