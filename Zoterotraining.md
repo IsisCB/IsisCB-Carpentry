@@ -146,9 +146,19 @@ All records
 [^ Up to Table of Contents](#table-of-contents)
 
 #### 3.2.1 Categories (Classifying)
-Use categories from the [IsisCB Category List](https://docs.google.com/spreadsheets/d/1wuHcy8FHlMAky6peGmZf7OSin5PlKWt1LgDI8QZVs2o/edit?usp=sharing) to denote classifications. Tags should look like, as an example, **=360-150=**, which in this case denotes 19th century medicine. These tags are formed by:
-- Noting either a cultural influence or chronological classification as the number preceding the hyphen. _Only one number can be used_.
-- Noting a single classification following the hyphen. _Only one number can be used_.	
+- Use categories from the [IsisCB Category List](https://docs.google.com/spreadsheets/d/1wuHcy8FHlMAky6peGmZf7OSin5PlKWt1LgDI8QZVs2o/edit?usp=sharing) to denote classifications. 
+- Tags should be a single number or a hyphenated number between equal signs as follows:
+  - Example, **=360-150=** which refers to “19th century”—“Medicine”
+  - Example, **=130=** which refers to “Biological sciences in general”
+  - If you can classify something in a single century or time period or if you can put something in a cultural category, then do so.
+    - A work that spans two time periods can be categorized in the beginning period. Example, 1620-1780 would be placed in the seventeenth century.
+    - A work that spans three periods should not be classified in a specific period.
+  - The cultural influence terms are 200 to 299; the chronological classification terms are 300 to 399.
+  - All terms with a classification of 200+ or 300+ must be hyphenated. You must add a narrower classification term.
+  - General, topical, and disciplinary classifications with numbers below 199 can be used alone (for items that have no narrower cultural or chronological classification).
+- N.B. In short: Tags should look like, as an example, **=360-150=**, which in this case denotes 19th century medicine. These tags are formed by:
+  - Noting either a cultural influence or chronological classification as the number preceding the hyphen. _Only one number can be used_.
+  - Noting a single classification following the hyphen. _Only one number can be used_.
 
 [^ Up to Table of Contents](#table-of-contents)
 
