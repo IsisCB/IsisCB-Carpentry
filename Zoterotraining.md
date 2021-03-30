@@ -154,7 +154,7 @@ Use categories from the [IsisCB Category List](https://docs.google.com/spreadshe
 
 #### 3.2.2 Subjects (Tagging)
 - Entering existing subject tags:
-Tags should auto populate once you begin to enter them, but only if they begin in the exact manner in which they are typed. For example, “Darwin, Charles” would only populate if one begins typing “Darwin” not “Charles.” Further, tags must be entered precisely as they are listed in the IsisCB. 
+  - Tags should auto populate once you begin to enter them, but only if they begin in the exact manner in which they are typed. For example, “Darwin, Charles” would only populate if one begins typing “Darwin” not “Charles.” Further, tags must be entered precisely as they are listed in the IsisCB. 
 - Entering new subject tags:
   - If we do not have the tag, add it in a subject field. The new tag will be automatically created during the ingestion process.
   - If the new subject tag is a name: 
