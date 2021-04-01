@@ -11,7 +11,7 @@
   * 2.2 [Zotero web clipper](#22-zotero-web-clipper)
 * 3 [Using Zotero for the IsisCB](#3-using-zotero-for-the-isiscb)
   * 3.1 [Collecting citations with Zotero](#31-collecting-citations-with-zotero)
-    * 3.1.1 [The Context Menu Search Application](#311the-context-menu-search-application)
+    * 3.1.1 [The Context Menu Search Application](#311-the-context-menu-search-application)
     * 3.1.2 [Journal Articles](#312-journal-articles)
     * 3.1.3 [Books (Single and Chapter)](#313-books-single-and-chapter)
     * 3.1.4 [Thesis (Dissertations)](#314-thesis-dissertations)
