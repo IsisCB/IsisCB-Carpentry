@@ -11,10 +11,11 @@
   * 2.2 [Zotero web clipper](#22-zotero-web-clipper)
 * 3 [Using Zotero for the IsisCB](#3-using-zotero-for-the-isiscb)
   * 3.1 [Collecting citations with Zotero](#31-collecting-citations-with-zotero)
-    * 3.1.1 [Journal Articles](#311-journal-articles)
-    * 3.1.2 [Books (Single and Chapter)](#312-books-single-and-chapter)
-    * 3.1.3 [Thesis (Dissertations)](#313-thesis-dissertations)
-    * 3.1.4 [Guidelines for collecting non-English citations](#314-guidelines-for-collecting-non-english-citations)
+    * 3.1.1 [The Context Menu Search Application](#311the-context-menu-search-application)
+    * 3.1.2 [Journal Articles](#312-journal-articles)
+    * 3.1.3 [Books (Single and Chapter)](#313-books-single-and-chapter)
+    * 3.1.4 [Thesis (Dissertations)](#314-thesis-dissertations)
+    * 3.1.5 [Guidelines for collecting non-English citations](#315-guidelines-for-collecting-non-english-citations)
   * 3.2 [Tagging and Classifying Citations: the IsisCB Classification Scheme](#32-tagging-and-classifying-citations-the-isiscb-classification-scheme)
     * 3.2.1 [Categories (Classifying)](#321-categories-classifying)
     * 3.2.2 [Subjects (Tagging)](#322-subjects-tagging)
@@ -88,7 +89,11 @@ All records
 
 [^ Up to Table of Contents](#table-of-contents)
 
-#### 3.1.1 Journal Articles
+#### 3.1.1 The Context Menu Search Application
+
+[^ Up to Table of Contents](#table-of-contents)
+
+#### 3.1.2 Journal Articles
 
 - Check the [JournalsRank1and2.xlsx](https://docs.google.com/spreadsheets/d/1v04WA7uml6JRtTCLOdDu0C55JaBJ5modPxqYRK2JM3M/edit#gid=881820069) spreadsheet to ensure that issue has not already been claimed by another assistant. 
 - If the issue has not yet been collected, claim the issue on the [JournalsRank1and2.xlsx](https://docs.google.com/spreadsheets/d/1v04WA7uml6JRtTCLOdDu0C55JaBJ5modPxqYRK2JM3M/edit#gid=881820069) spreadsheet and either use the Zotero button to automatically harvest article data for an entire issue from websites/hard copies or manually input the information for all articles in an issue in the appropriate fields for each article in individual and separate Zotero records. 
@@ -105,7 +110,7 @@ All records
 
 [^ Up to Table of Contents](#table-of-contents)
 
-#### 3.1.2 Books (Monographs and Edited Books)
+#### 3.1.3 Books (Monographs and Edited Books)
 
 - Check Zotero and IsisCB Explore to see if the book is already included in the database. If no record is found, then harvest the book information from WorldCat or other sources using the Zotero Button or manually entering the information into a properly formatted folder (for more information, see [Zotero File Structure](http://wiki.isiscb.org/Zotero_file_structure)) in the current “IsisCB” Library. _Note: when searching for books on the non-public face of the IsisCB, at the time of this writing, one cannot include punctuation marks in the search fields, else the search does not display results correctly (i.e., no results will display)._
 - If the book is an edited book, defined as book which includes chapters which are authored by multiple individuals, then:
@@ -121,11 +126,11 @@ All records
 
 [^ Up to Table of Contents](#table-of-contents)
 
-#### 3.1.3 Thesis (Dissertations)
+#### 3.1.4 Thesis (Dissertations)
 
 [^ Up to Table of Contents](#table-of-contents)
 
-#### 3.1.4 Guidelines for collecting non-English citations
+#### 3.1.5 Guidelines for collecting non-English citations
 
 - TITLES:
   - Keep the title in the original language (this includes languages with symbols because we are now using Unicode). Put the translation in {alt. Title: ...} in the extra field.
