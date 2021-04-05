@@ -92,12 +92,18 @@ All records
 #### 3.1.1 The Context Menu Search Application
 
 This useful app provides a fast way of looking for items in the IsisCB so as to prevent adding duplicates. It is a Chrome browser extension called "Context menu search": it can be programmed to search Explore for any text that you have highlighted in your browser. 
-Here is how it works. When you find some text you want to search for, highlight the text, right click, and then choose the IsisCB search function. It will then search the IsisCB Explore for citations with the words you have highlighted.
-In the following example, the last name and first part of a title of a book review found online were highlighted. Then the right click function was used to pull up the menu choices as seen below:
+- Here is how it works. When you find some text you want to search for, highlight the text, right click, and then choose the IsisCB search function. It will then search the IsisCB Explore for citations with the words you have highlighted.
+- In the following example, the last name and first part of a title of a book review found online were highlighted. Then the right click function was used to pull up the menu choices as seen below:
 
-When clicking on IsisCB, it opens up the following page from Explore:
+- When clicking on IsisCB, it opens up the following page from Explore:
 
 This means that the title is already in Explore and there is no need to do anything else with the book. Of course, in many cases you may want to modify the search in the search box to check without the author’s name, perhaps or omitting a word that has diacritics that might not match.
+
+- To install and program Context Menu Search, do the following:
+  - Go to: https://chrome.google.com/webstore/detail/context-menu-search/ocpcmghnefmdhljkoiapafejjohldoga?hl=en, and install. 
+  - Then go to the options in the menu from the upper right hand side of the page (as shown on the right)
+  - Follow the directions for adding a new option
+  - Add the following URL to the link field: "https://data.isiscb.org/isis/?q=TESTSEARCH" and label it IsisCB.
 
 [^ Up to Table of Contents](#table-of-contents)
 
