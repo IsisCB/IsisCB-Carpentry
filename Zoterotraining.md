@@ -94,7 +94,7 @@ All records
 This useful app provides a fast way of looking for items in the IsisCB so as to prevent adding duplicates. It is a Chrome browser extension called "Context menu search": it can be programmed to search Explore for any text that you have highlighted in your browser. 
 - Here is how it works. When you find some text you want to search for, highlight the text, right click, and then choose the IsisCB search function. It will then search the IsisCB Explore for citations with the words you have highlighted.
 - In the following example, the last name and first part of a title of a book review found online were highlighted. Then the right click function was used to pull up the menu choices as seen below:
-
+https://github.com/IsisCB/IsisCB-Carpentry/blob/main/media/Context%20Menu%20Search%201.png
 - When clicking on IsisCB, it opens up the following page from Explore:
 
 This means that the title is already in Explore and there is no need to do anything else with the book. Of course, in many cases you may want to modify the search in the search box to check without the author’s name, perhaps or omitting a word that has diacritics that might not match.
