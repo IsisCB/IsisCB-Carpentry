@@ -122,27 +122,8 @@ Books (Single and Chapter)
 3. Put the University where it was published
 4. In the extra field put the description of what each actually did.
 
-## Move this section to classifying tutorial General rules for tagging and classifying citations ##
 
-Categories (Classifying)
-
-1. Use categories from the [IsisCB Category List](https://docs.google.com/spreadsheets/d/1wuHcy8FHlMAky6peGmZf7OSin5PlKWt1LgDI8QZVs2o/edit?usp=sharing) to denote classifications. Tags should look like, as an example, **=360-150=**, which in this case denotes 19th century medicine. These tags are formed by:
-    1. Noting either a cultural influence or chronological classification as the number preceding the hyphen. _Only one number can be used_.
-    2. Noting a single classification following the hyphen. _Only one number can be used_.	
-
-Subjects (Tagging)
-
-1. Entering existing subject tags:
-    1. Tags should auto populate once you begin to enter them, but only if they begin in the exact manner in which they are typed. For example, “Darwin, Charles” would only populate if one begins typing “Darwin” not “Charles.” Further, tags must be entered precisely as they are listed in the IsisCB. 
-2. Entering new subject tags:
-    2. If we do not have the tag, add it in a subject field. The new tag will be automatically created during the ingestion process.
-    3. If the new subject tag is a name: 
-        1. Put the [VIAF](http://wiki.isiscb.org/VIAF) number in or [ORCID](http://wiki.isiscb.org/index.php?title=ORCID&action=edit&redlink=1) after the subject tag in brackets. For example, {VIAF: 123456789} or {ORCID: 1234-3456-3456-1234}.
-        2. Enter the new name
-        3. Personal names in subject tags should be Last, First Middle
-    4. If the source of the information for the new subject tag originates from the text of the book/article but nowhere else, enter {Source} after the subject tag in the subject tag field.
-
-## Instructions for SHOT editors ##
+## Instructions for SHOT editors ## (SPW decide where to put it)
 
 We are going to have you enter new subject tags as you like from GND. If you do so, please provide the name and add the permalink URI for the authority in the GND database in curly brackets, as follows: Zeitdilatation {URI: [http://d-nb.info/gnd/4348523-6}](http://d-nb.info/gnd/4348523-6%7D) Once you add that one time, it should appear as a suggestion in your Zotero database every time you enter it after that.
 
