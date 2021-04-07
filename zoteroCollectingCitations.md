@@ -8,15 +8,12 @@ The Isis Current Bibliography is a research tool for those interested in the his
 
 ### The online dataset is composed of three main types of records
 
-1. Citations, bibliographic entries that have been classified and indexed. These include
-    1. Books
-    2. Chapters
-    3. Articles
-    4. Book reviews
-    5. Essay reviews
-    6. Theses (Dissertations)
-    7. Web objects (websites)
-    8. Multimedia objects (Podcasts)
+1. Citations, bibliographic entries that have been classified and indexed. These include but are not limited to:
+    1. Books and chapters
+    2. Articles, essay reviews, and book reviews
+    3. Theses (Dissertations)
+    4. Web objects (websites, online exhibitions, et al)
+    5. Multimedia objects (Podcasts, documentaries et al)
 3. Authorities, identity records for the subject and category tags as well as all authors and contributors, publishers, journals, and thesis granting institutions
 4. Relationships, records that link citations and authorities to each other creating a semantic web that powers the search and facet features
 
@@ -56,6 +53,7 @@ If you go to the online bibliography and do a quick search, you will find that t
 2. Don’t ever trust the information in WorldCat; always verify with a second source if possible; beware, especially, of the title and authors.
 3. Don’t try to pull too many things (as a general rule try to limit the number of items to 20 or less) from a website at once or else the publisher may lock you out for a time. If this happens, you can attempt to access the website after a short interlude.
 
+
 ## Thing to Remember When Collecting Records into Zotero
 
 1. Make sure the target folder is selected or open in Zotero before hitting the Zotero button, otherwise the information will go to the general directory or an incorrect folder.
@@ -69,23 +67,28 @@ If you go to the online bibliography and do a quick search, you will find that t
     4. ISSN: This is the journal’s identification number. This is almost always found on the journal’s publisher site (i.e. Brill, SagePub, Wiley, Cambridge, Oxford, etc.)
 6. Check to ensure a language is entered in the language field. Frequently the language field is not harvested.
 
-## Guidelines for collecting non-English citations
 
-1. Titles:
-    1. Keep the title in the original language (this includes languages with symbols because we are now using Unicode). Put the translation in {alt. Title: ...} in the extra field.
-    2. If the publication provides an English translation of the title, you may add the translated title as {atl. title: Translated Title} in the “Extras Field”
-    3. DO NOT use Google Translate for the entered title. You may use it in notes for yourself but not in any space that will be published. There is one exception, if the entered title is in a language using non-Latin script and outside of the European language set, then provide the Google translated title in {alt. title: Translated Title}
-2. Abstracts:
-    4. If the article provides a translated abstract, you may put the English translation in the “abstract” field (if it is provided by the source). If not, keep the abstract in the original language.
-    5. DO NOT use Google Translate for the abstract. You may use it in notes for yourself but not in any space that will be published. There is one exception, if the entered title is in a language using non-Latin script and outside of the European language set, then provide the Google translated title in {alt. title: Translated Title}
-    6. Enter the Google translated abstract in the extra field using the same rules that apply to translated titles, as noted above.
-3. Other fields:
-    7. As for other fields, like author, publisher, place the field need to be transliterated into latin text so that it can be searched and used in Explore. (VIAF and ORCID will provide the proper transliterated author name.)
-    8. Authorities should be transliterated into Latin so that they searchable.
+## Guidelines for Collecting Citations
 
-## Guidelines for collecting citations ##
+### Books and Chapters
 
-Journal Articles
+1. Once you have found a book or group of book chapters, check Zotero and IsisCB Explore to see if the book or chapters are already included in the database. If no record is found, then harvest the book information from WorldCat or other sources using the Zotero Button or manually entering the information into a properly formatted folder (for more information, see [Zotero File Structure](http://wiki.isiscb.org/Zotero_file_structure)) in the current “IsisCB” Library. 
+*Note: when searching for books on the non-public face of the IsisCB, at the time of this writing, one cannot include punctuation marks in the search fields, else the search does not display results correctly (i.e., no results will display)._
+
+    1. If the book is a Chapter Book, defined as book which includes chapters which are authored by multiple individuals, then:
+        1. Consider the relevance of the book.
+        2. If the book is suitably relevant to the scope of the IsisCB (consult the bibliographer if unsure), harvest the book information from WorldCat or other sources using the Zotero Button or manually entering the information into a properly formatted folder (for more information, see [Zotero File Structure](http://wiki.isiscb.org/Zotero_file_structure)) in the current “IsisCB” Library, which in this case, would adhere to the guidelines for Chapter Books. Further, add records for the chapters of the book in the following manner:
+            1. Duplicate the book record in Zotero, alter the “Item Type” of this duplicated section from “Book” to “Book Section,” and clear the 
+            2. Delete editor(s)’ name(s) from the chapters and only keep the author(s) for each chapter.
+        3. If the book is less relevant to the scope of the IsisCB, but a few chapters in the book are relevant (consult the bibliographer if unsure), harvest the book information as noted above, but only create files for the relevant chapters (i.e., do not create Zotero records for all chapters as noted above, only relevant chapters). Further, if the topics covered in these chapters is suitably distinct from the general subject of the book, classify and subject tag each chapter individually and separately.
+        4. If the book is less relevant to the scope of the IsisCB (consult the bibliographer if unsure), harvest the book information as noted above, but do not add records for the chapters of the book. Instead, copy or manually enter the table of contents of said book into the abstract field of the book’s Zotero record. 
+    2. If the book is a Single Book, so considered as any book which is not a chapter book as defined, simply ingest the citation into Zotero. No further action is needed until the tagging and classifying step as described below.
+
+2. Things to consider:
+    1. Generally, the required fields for books are: Item Type, Title, Author/Editor, Abstract, Series, Place, Publisher, Date Pages, Language, ISBN, Short Title. If you have questions about specific fields for specific items, discuss the items with the bibliographer.
+
+
+### Journal Articles, Essay Reviews and Book Reviews
 
 1. Check the [JournalsRank1and2.xlsx](https://docs.google.com/spreadsheets/d/1v04WA7uml6JRtTCLOdDu0C55JaBJ5modPxqYRK2JM3M/edit#gid=881820069) spreadsheet to ensure that issue has not already been claimed by another assistant. 
 2. If the issue has not yet been collected, claim the issue on the [JournalsRank1and2.xlsx](https://docs.google.com/spreadsheets/d/1v04WA7uml6JRtTCLOdDu0C55JaBJ5modPxqYRK2JM3M/edit#gid=881820069) spreadsheet and either use the Zotero button to automatically harvest article data for an entire issue from websites/hard copies or manually input the information for all articles in an issue in the appropriate fields for each article in individual and separate Zotero records. 
@@ -100,27 +103,33 @@ Journal Articles
     6. Generally, the required fields for journals are: Item type, Title, Author(s), Abstract, Publication, Volume Issue, Pages or Word Count, Date, Journal Abbreviation, Language, DOI, ISSN. If you have questions about specific fields for specific items, discuss the items with the bibliographer.
     7. If there are no page numbers for articles or reviews, put {Approx ### words}.
 
-Books (Single and Chapter)
 
-1. Check Zotero and IsisCB Explore to see if the book is already included in the database. If no record is found, then harvest the book information from WorldCat or other sources using the Zotero Button or manually entering the information into a properly formatted folder (for more information, see [Zotero File Structure](http://wiki.isiscb.org/Zotero_file_structure)) in the current “IsisCB” Library. _Note: when searching for books on the non-public face of the IsisCB, at the time of this writing, one cannot include punctuation marks in the search fields, else the search does not display results correctly (i.e., no results will display)._
-    1. _If the book is a Chapter Book, _defined as book which includes chapters which are authored by multiple individuals, then:
-        1. Consider the relevance of the book.
-        2. _If the book is suitably relevant to the scope of the IsisCB (consult the bibliographer if unsure)_, harvest the book information from WorldCat or other sources using the Zotero Button or manually entering the information into a properly formatted folder (for more information, see [Zotero File Structure](http://wiki.isiscb.org/Zotero_file_structure)) in the current “IsisCB” Library, which in this case, would adhere to the guidelines for Chapter Books. Further, add records for the chapters of the book in the following manner:
-            1. Duplicate the book record in Zotero, alter the “Item Type” of this duplicated section from “Book” to “Book Section,” and clear the 
-            2. Delete editor(s)’ name(s) from the chapters and only keep the author(s) for each chapter.
-        3. _If the book is less relevant to the scope of the IsisCB, but a few chapters in the book are relevant (consult the bibliographer if unsure)_, harvest the book information as noted above, but only create files for the relevant chapters (i.e., do not create Zotero records for _all_ chapters as noted above, only relevant chapters). Further, if the topics covered in these chapters is suitably distinct from the general subject of the book, classify and subject tag each chapter individually and separately.
-        4. _If the book is less relevant to the scope of the IsisCB (consult the bibliographer if unsure)_, harvest the book information as noted above, but do not add records for the chapters of the book. Instead, copy or manually enter the table of contents of said book into the abstract field of the book’s Zotero record. 
-    2. _If the book is a Single Book, _so considered as any book which is not a chapter book as defined, simply ingest the citation into Zotero. No further action is needed until the tagging and classifying step as described below.
-2. Things to consider:
-    3. Generally, the required fields for books are: Item Type, Title, Author/Editor, Abstract, Series, Place, Publisher, Date Pages, Language, ISBN, Short Title. If you have questions about specific fields for specific items, discuss the items with the bibliographer.
+### Dissertations & Thesis
+
+1. In addition to the author of the text, change the advisers to “contributors” in the author field.
+2. Put the University where it was published
+3. In the extra field put the description of what each actually did.
 
 
-## Guidlines for collecting Dissertations & Thesis
+### Web Objects (websites, online exhibitions, et al)
 
-1. 
-2. In addition to the author of the text, change the advisers to “contributors” in the author field.
-3. Put the University where it was published
-4. In the extra field put the description of what each actually did.
+
+### Multimedia objects (Podcasts, documentaries et al)
+
+
+### Guidelines for collecting non-English citations
+
+1. Titles:
+    1. Keep the title in the original language (this includes languages with symbols because we are now using Unicode). Put the translation in {alt. Title: ...} in the extra field.
+    2. If the publication provides an English translation of the title, you may add the translated title as {atl. title: Translated Title} in the “Extras Field”
+    3. DO NOT use Google Translate for the entered title. You may use it in notes for yourself but not in any space that will be published. There is one exception, if the entered title is in a language using non-Latin script and outside of the European language set, then provide the Google translated title in {alt. title: Translated Title}
+2. Abstracts:
+    4. If the article provides a translated abstract, you may put the English translation in the “abstract” field (if it is provided by the source). If not, keep the abstract in the original language.
+    5. DO NOT use Google Translate for the abstract. You may use it in notes for yourself but not in any space that will be published. There is one exception, if the entered title is in a language using non-Latin script and outside of the European language set, then provide the Google translated title in {alt. title: Translated Title}
+    6. Enter the Google translated abstract in the extra field using the same rules that apply to translated titles, as noted above.
+3. Other fields:
+    7. As for other fields, like author, publisher, place the field need to be transliterated into latin text so that it can be searched and used in Explore. (VIAF and ORCID will provide the proper transliterated author name.)
+    8. Authorities should be transliterated into Latin so that they searchable.
 
 
 ## Instructions for SHOT editors ## (SPW decide where to put it)
