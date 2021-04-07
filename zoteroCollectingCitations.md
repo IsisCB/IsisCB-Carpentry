@@ -32,14 +32,22 @@ If you go to the online bibliography and do a quick search, you will find that t
 
 *For more information on Zotero and the Zotero web extension see [Zotero Training](https://github.com/IsisCB/IsisCB-Carpentry/blob/main/Zoterotraining.md)*
 
-### Where and How to Find Citations
+### Where to Find Citations
 
-1. Focus on what you know. This is the best place to start because it allows you to familiarize yourself with the bibliography and discover what you can contribute uniquely. Check your bookshelf, course syllabi, bibliographies, favorite journals, authors, and podcasts. Search the online bibliography to discover what is already included and what may be missing. If there are gaps, this is a great place to start making your contributions.
+1. Focus on what you know. This is the best place to start because it allows you to familiarize yourself with the bibliography and discover what you can contribute uniquely. Check your bookshelf, course syllabi, bibliographies, favorite journals, authors, blogs, and podcasts. Search the online bibliography to discover what is already included and what may be missing. If there are gaps, this is a great place to start making your contributions.
 2. A standard resource for contributors is the Isis CB journal list which provides a list of known journals that deal with the history of science, technology and medicine. (Scan list journals)[https://docs.google.com/spreadsheets/d/1v04WA7uml6JRtTCLOdDu0C55JaBJ5modPxqYRK2JM3M/edit] The listed journals on the list are ranked into three categories:
-    1. Rank 1. 
+    1. Rank 1. Enter all.
     2. Rank 2. Many of the articles and reviews may be relevant.
     3. Rank 3. Some of the articles and reviews may be relevant.
-3. Recent publications lists on publisher's websites
+3. List of recieved books from Isis and other major journals
+4. Publishers' recent publications lists related to the history of science, technology and medicine and distributors's websites (amazon et al)
+5. Dissertation abstracts
+6. Libguides related to the history of science, technology and medicine
+7. Newsletters
+8. Listservs
+9. Social media resources (Academia.edu, Researchgate, (Humanities Commons)[https://hcommons.org/], twitter et al)
+10. Museum exhibition and catalogues
+11. Volunteer contributor's list (Isis CB Gmail)
 
 
 ## General Tips, Rules and Guidelines for Collecting Citations
