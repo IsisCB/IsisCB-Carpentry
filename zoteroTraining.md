@@ -95,12 +95,14 @@ This useful app provides a fast way of looking for items in the IsisCB so as to 
 - Here is how it works. When you find some text you want to search for, highlight the text, right click, and then choose the IsisCB search function. It will then search the IsisCB Explore for citations with the words you have highlighted.
 - In the following example, the last name and first part of a title of a book review found online were highlighted. Then the right click function was used to pull up the menu choices as seen below:
 
-![Context Menu Search 01](https://github.com/IsisCB/IsisCB-Carpentry/blob/main/media/Context%20Menu%20Search%2001.png)
+![ContextMenuSearch1](https://github.com/IsisCB/IsisCB-Carpentry/blob/main/media/ContextMenuSearch1.png)
+
 ---
 
 - When clicking on IsisCB, it opens up the following page from Explore:
 
-![Context Menu Search 02](https://github.com/IsisCB/IsisCB-Carpentry/blob/main/media/Context%20Menu%20Search%2002.png)
+![ContextMenuSearch2](https://github.com/IsisCB/IsisCB-Carpentry/blob/main/media/ContextMenuSearch2.png)
+
 ---
 
 This means that the title is already in Explore and there is no need to do anything else with the book. Of course, in many cases you may want to modify the search in the search box to check without the author’s name, perhaps or omitting a word that has diacritics that might not match.
