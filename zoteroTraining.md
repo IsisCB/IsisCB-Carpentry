@@ -109,7 +109,12 @@ This means that the title is already in Explore and there is no need to do anyth
 
 - To install and program Context Menu Search, do the following:
   - Go to: https://chrome.google.com/webstore/detail/context-menu-search/ocpcmghnefmdhljkoiapafejjohldoga?hl=en, and install. 
-  - Then go to the options in the menu from the upper right hand side of the page (as shown on the right)
+  - Then go to the options in the menu from the upper right hand side of the page (as shown below)
+  
+  ![ContextMenuSearch3](https://github.com/IsisCB/IsisCB-Carpentry/blob/main/media/ContextMenuSearch3.png)
+  
+  ---
+  
   - Follow the directions for adding a new option
   - Add the following URL to the link field: "https://data.isiscb.org/isis/?q=TESTSEARCH" and label it IsisCB.
 
