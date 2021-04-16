@@ -33,6 +33,10 @@
 
 [Zotero](https://www.zotero.org/) is a free, open-source reference management software to manage bibliographic data and related research materials (such as, for example, PDF files). Notable features include web browser integration, online syncing, generation of in-text citations, footnotes, and bibliographies, as well as integration with the word processors Microsoft Word, LibreOffice Writer, and Google Docs.
 
+![zoteroExample](https://github.com/IsisCB/IsisCB-Carpentry/blob/main/media/zoteroExample.png)
+
+---
+
 In Zotero, users can generate citations and bibliographies through word processor plugins (or directly in Zotero) using Citation Style Language styles. The house styles of most academic journals are available in Zotero, and the bibliography can be reformatted with a few clicks. Zotero also allows users to create their own customized citation styles.
 
 Zotero can import and export citations from or to many formats, including Wikipedia Citation Templates,[7] BibTeX, BibLateX, RefWorks, MODS, COinS, Citation Style Language/JSON, refer/BibIX, RIS, TEI, several flavours of RDF, Evernote, and EndNote.
